@@ -724,7 +724,7 @@ img{
 	float:left;
 	left:0px;
 	z-index:10;
-	padding:30px 0px;
+	padding:0px 0px;
 }
 
 .main-header .main-box .logo-box .logo img{
@@ -761,7 +761,7 @@ img{
 
 .main-header .header-upper .outer-container{
 	position:relative;
-	padding:0px 100px;
+	padding: 0px 100px;
 }
 
 .main-header .nav-outer{
@@ -780,7 +780,7 @@ img{
 .main-header .header-upper .logo-box{
 	position: relative;
 	z-index:20;
-	padding: 20px 0px;
+	padding: 0px 0px;
 	transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
@@ -930,14 +930,16 @@ img{
 	margin-top:0px;
 	width:auto;
 	float:right;
+	position:relative;
+	right: 200px;	
 }
 
 .main-header.header-style-two .header-upper .logo-box{
 	position:relative;
 	padding:0px;
 	left:0px;
-	top:5px;
-	padding-top:30px;
+	top:0px;
+	padding-top:10px;
 	padding-right:90px;
 	background-color:#ffffff;
 }
@@ -946,7 +948,7 @@ img{
 	position:absolute;
 	content:'';
 	right:0px;
-	bottom:-40px;
+	bottom:0px;
 	height:50px;
 	width:2000px;
 	background-color:#ffffff;
@@ -1336,7 +1338,7 @@ img{
 }
 
 .sticky-header .logo{
-	padding:4px 0px 4px;
+	padding:20px 0px 4px;
 }
 
 .sticky-header .header-upper .logo-box{
