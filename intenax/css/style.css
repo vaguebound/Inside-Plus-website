@@ -623,6 +623,8 @@ img{
 	-op-animation-duration: 500ms;
 	-webkit-animation-duration: 500ms;
 	animation-duration: 500ms;
+	background-color: #262626;
+	height: 100px;
 }
 
 /* Header Top */
@@ -780,6 +782,7 @@ img{
 .main-header .header-upper .logo-box{
 	position: relative;
 	z-index:20;
+	top: 10px;
 	padding: 0px 0px;
 	transition: all 500ms ease;
     -moz-transition: all 500ms ease;
@@ -908,7 +911,7 @@ img{
 
 .main-header .nav-outer .search-box-btn .icon{
 	position:relative;
-	top:2px;
+	top:15px;
 	color:#ffffff;
 	cursor:pointer;
 	font-size:17px;
@@ -988,6 +991,7 @@ img{
 
 .main-menu .navigation{
 	position:relative;
+	top: 15px;
 	margin:0px;
 	text-align:center;
 	width:100%;
@@ -1338,7 +1342,7 @@ img{
 }
 
 .sticky-header .logo{
-	padding:20px 0px 4px;
+	padding:12px 0px 4px;
 }
 
 .sticky-header .header-upper .logo-box{
@@ -1346,7 +1350,7 @@ img{
 }
 
 .sticky-header .main-menu .navigation > li > a{
-	padding:30px 0px;
+	padding:10px 0px;
 }
 
 .sticky-header .header-upper .button-box{
@@ -1440,6 +1444,7 @@ img{
 
 .nav-outer .mobile-nav-toggler{
 	position: relative;
+	left: 175px;
 	float:right;
 	font-size: 30px;
 	line-height: 40px;
@@ -1465,7 +1470,7 @@ img{
 .mobile-menu .nav-logo{
 	position:relative;
 	padding:20px 20px;
-	text-align:left;	
+	text-align:right;	
 }
 
 .mobile-menu .nav-logo img{
@@ -1648,6 +1653,7 @@ img{
 
 .main-slider{
 	position: relative;
+	top:100px;
 }
 
 .main-slider .title{
@@ -4261,7 +4267,7 @@ img{
 
 .architecture-section{
 	position:relative;
-	padding:100px 0px 120px;
+	padding:200px 0px 120px;
 }
 
 .architecture-section .pattern-layer{
