@@ -36,10 +36,10 @@ class Header extends HTMLElement {
 
 							<div class="navbar-collapse collapse scroll-nav clearfix" id="navbarSupportedContent">
 								<ul class="navigation clearfix">
-									<li class="current"><a href="index.html">Home</a>
+									<li id="myHome"><a href="index.html">Home</a>
 									</li>
 									<li><a href="about.html">About Us</a></li>
-									<li class="dropdown"><a href="services.html">Services</a>
+									<li id="myServices" class="dropdown"><a href="services.html">Services</a>
 										<ul>
 											<li><a href="project-management.html">Project Management</a></li>
 											<li><a href="services-2.html">Engineering</a></li>

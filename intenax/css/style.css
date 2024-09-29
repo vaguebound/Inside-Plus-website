@@ -1696,7 +1696,8 @@ img{
 
 .main-slider h2{
 	position: relative;
-	display: block;
+	display: inline-block;
+	padding: 2%;
 	font-size: 60px;
 	color: #ffffff;
 	font-weight: 600;
@@ -1708,12 +1709,17 @@ img{
 .main-slider h2.style-three{
 	font-size:64px;
 	font-weight:400;
-	color:#222222;
+	color:#e9c37a;
 	
 }
 
 .main-slider h2.style-two{
-	color:#222222;
+	color:#ffe600;
+	
+	border: 0px solid black;
+	border-radius: 20PX;
+	background-color: rgba(146, 146, 146, 0.75);
+	
 }
 
 .main-slider .text.style-two{
