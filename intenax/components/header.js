@@ -72,18 +72,14 @@ class Header extends HTMLElement {
 						</nav>
 						<!-- Main Menu End-->
 						
-						<div class="search-box-btn"><span class="icon icon-magnifier"></span></div>
 						
-					</div>
 					
 					<!-- Outer Box -->
 					<div class="social-outer-box">
 						<ul class="social-links">
-							<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-							<li><a href="#"><span class="fa fa-pinterest-p"></span></a></li>
-							<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-							<li><a href="#"><span class="fa fa-instagram"></span></a></li>
-							<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+							<li><a href="https://www.facebook.com/insideplus" target="_blank"><span class="fa fa-facebook-f"></span></a></li>
+							<li><a href="https://www.instagram.com/inside_plus/" target="_blank"><span class="fa fa-instagram"></span></a></li>
+							<li><a href="https://www.linkedin.com/company/inside-plus/posts/?feedView=all" target="_blank"><span class="fa fa-linkedin"></span></a></li>
 						</ul>
 					</div>
 					
