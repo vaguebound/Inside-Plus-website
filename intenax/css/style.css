@@ -245,16 +245,16 @@ img{
 	font-size:14px;
 	font-weight:600;
 	letter-spacing:0.05em;
-	background-color:#e9c37a;
+	background-color:#ffe600;
 	padding:12px 31px !important;
 	text-transform:uppercase;
-	border:2px solid #e9c37a;
+	border:2px solid #ffe600;
 	font-family: 'Montserrat', sans-serif;
 	
 }
 
 .btn-style-one:hover{
-	color: #e9c37a;
+	color: #ffe600;
 	box-shadow:0px 0px 7px 0px rgba(0,0,0,0.20);
 	border-color:#ffffff;
 	background:#ffffff;
@@ -1723,7 +1723,7 @@ img{
 }
 
 .main-slider .text.style-two{
-	color:#222222;
+	color:#ffffff;
 }
 
 .main-slider .text{
@@ -1746,7 +1746,7 @@ img{
 	top:12px;
 	height:2px;
 	width:50px;
-	background-color:#e9c37a;
+	background-color:#ffe600;
 }
 
 .main-slider .link-box{
