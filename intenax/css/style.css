@@ -254,7 +254,7 @@ img{
 }
 
 .btn-style-one:hover{
-	color: #ffe600;
+	color: #000000;
 	box-shadow:0px 0px 7px 0px rgba(0,0,0,0.20);
 	border-color:#ffffff;
 	background:#ffffff;
@@ -763,7 +763,7 @@ img{
 
 .main-header .header-upper .outer-container{
 	position:relative;
-	padding: 0px 100px;
+	padding: 0px 0px;
 }
 
 .main-header .nav-outer{
@@ -783,7 +783,7 @@ img{
 	position: relative;
 	z-index:20;
 	top: 10px;
-	padding: 0px 0px;
+	padding: 0px 50px;
 	transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
@@ -798,13 +798,18 @@ img{
 .main-header .header-upper .social-outer-box{
 	position:absolute;
 	right:0px;
-	top:0px;
+	top:20px;
 	padding:38px 60px;
 	background-color:#ffffff;
+	text-align: center;
 }
 
 .main-header .header-upper .social-outer-box .social-links{
 	position:relative;
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
 .main-header .header-upper .social-outer-box .social-links li{
@@ -4271,7 +4276,7 @@ img{
 
 .architecture-section{
 	position:relative;
-	padding:200px 0px 120px;
+	padding:100px 0px 120px;
 }
 
 .architecture-section .pattern-layer{
@@ -4373,7 +4378,7 @@ img{
 
 .architecture-section .lower-content .image-column .inner-column{
 	position:relative;
-	margin-top:-90px;
+	margin-top:-30px;
 }
 
 .architecture-section .lower-content .image-column img{
