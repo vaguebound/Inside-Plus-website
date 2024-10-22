@@ -38,34 +38,27 @@ class Header extends HTMLElement {
 								<ul class="navigation clearfix">
 									<li id="myHome"><a href="index.html">Home</a>
 									</li>
-									<li id="myAboutus" class="dropdown"><a href="about.html">About Us</a>
+									<li id="myAboutus" class="dropdown"><a href="#">About Us</a>
 										<ul>
 											<li><a href="team.html">Meet Our Team</a></li>
 										</ul>
 
 									</li>
-									<li id="myServices" class="dropdown"><a href="services.html">Services</a>
+									<li id="myServices" class="dropdown"><a href="#">Services</a>
 										<ul>
 											<li><a href="service-architecture.html">Architecture</a></li>
 											<li><a href="service-interior.html">Interior Design</a></li>
-											<li><a href="services-2.html">Engineering</a></li>
-											<li><a href="project-management.html">Project Management & Consultancy</a></li>
+											<li><a href="service-engineering.html">Engineering</a></li>
+											<li><a href="service-project-management.html">Project Management & Consultancy</a></li>
 										</ul>
 									</li>
-									<li class="dropdown"><a href="team.html">Projects</a>
+									<li class="dropdown"><a href="#">Projects</a>
 										<ul>
-											<li><a href="about-me.html">Know About Me</a></li>
-											<li><a href="price.html">Our Price Plans</a></li>
-                                            <li><a href="contact-2.html">Contact Style 02</a></li>
+											<li><a href="projects-interior.html">Interior</a></li>
+                                            <li><a href="projects-architecture.html">Architecture</a></li>
 										</ul>
 									</li>
-									<li class="dropdown"><a href="blog.html">News</a>
-										<ul>
-											<li><a href="blog.html">News 03 Columns</a></li>
-											<li><a href="blog-classic.html">News Fullwidth</a></li>
-											<li><a href="blog-sidebar.html">News With Sidebar</a></li>
-											<li><a href="blog-single.html">News Details</a></li>
-										</ul>
+									<li class="dropdown"><a href="products.html">Products</a>
 									</li>
 									<li><a href="contact.html">Contact Us</a></li>
 								</ul>

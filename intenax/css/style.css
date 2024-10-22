@@ -546,6 +546,7 @@ img{
 	background-size:cover;
 	background-attachment:fixed;
 	background-repeat:no-repeat;
+	margin-top: 0px;
 }
 
 .sec-title-two .image-layer{
@@ -627,9 +628,10 @@ img{
 	background-color: rgba(0,0,0,0);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
 	.main-header {
 		position: relative;
+		height: 110px;
 	}
 }
 
@@ -799,6 +801,12 @@ img{
 
 .main-header .header-upper .logo-box .logo{
 	position:relative;
+}
+
+@media (max-width: 576px) {
+	.main-header .header-upper .logo-box .logo {
+		width: 75%;
+	}
 }
 
 .main-header .header-upper .social-outer-box{
@@ -1077,7 +1085,7 @@ img{
 	position:absolute;
 	left:0px;
 	top:100%;
-	margin-top: 10px;
+	margin-top: -20px;
 	width:210px;
 	z-index:100;
 	display:none;
@@ -1453,16 +1461,15 @@ img{
 ***/
 
 .nav-outer .mobile-nav-toggler{
-	position: relative;
+	position: absolute;
 	left: 225px;
 	float:left;
 	font-size: 30px;
-	line-height: 40px;
+	line-height: 0px;
 	cursor: pointer;
 	color:#e9c37a;
 	padding:10px 10px;
 	display: none;
-	background-color: white;
 }
 
 .mobile-menu{
