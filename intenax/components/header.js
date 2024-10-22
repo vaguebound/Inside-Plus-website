@@ -38,20 +38,22 @@ class Header extends HTMLElement {
 								<ul class="navigation clearfix">
 									<li id="myHome"><a href="index.html">Home</a>
 									</li>
-									<li><a href="about.html">About Us</a></li>
+									<li id="myAboutus" class="dropdown"><a href="about.html">About Us</a>
+										<ul>
+											<li><a href="team.html">Meet Our Team</a></li>
+										</ul>
+
+									</li>
 									<li id="myServices" class="dropdown"><a href="services.html">Services</a>
 										<ul>
-											<li><a href="project-management.html">Project Management</a></li>
-											<li><a href="services-2.html">Engineering</a></li>
-											<li><a href="service-interior.html">Interior Design</a></li>
 											<li><a href="service-architecture.html">Architecture</a></li>
-											<li><a href="service-plans.html">Floor Plans</a></li>
-											<li><a href="service-lighting.html">Lighting Decor</a></li>
+											<li><a href="service-interior.html">Interior Design</a></li>
+											<li><a href="services-2.html">Engineering</a></li>
+											<li><a href="project-management.html">Project Management & Consultancy</a></li>
 										</ul>
 									</li>
 									<li class="dropdown"><a href="team.html">Projects</a>
 										<ul>
-											<li><a href="team.html">Meet Our Team</a></li>
 											<li><a href="about-me.html">Know About Me</a></li>
 											<li><a href="price.html">Our Price Plans</a></li>
                                             <li><a href="contact-2.html">Contact Style 02</a></li>
@@ -75,18 +77,14 @@ class Header extends HTMLElement {
 						
 					
 					<!-- Outer Box -->
-					<div class="social-outer-box">
-						<ul class="social-links">
-							<li><a href="https://www.facebook.com/insideplus" target="_blank"><span class="fa fa-facebook-f"></span></a></li>
-							<li><a href="https://www.instagram.com/inside_plus/" target="_blank"><span class="fa fa-instagram"></span></a></li>
-							<li><a href="https://www.linkedin.com/company/inside-plus/posts/?feedView=all" target="_blank"><span class="fa fa-linkedin"></span></a></li>
-						</ul>
-					</div>
+					
 					
                 </div>
             </div>
         </div>
         <!--End Header Upper-->
+
+		
         
 		<!--Sticky Header-->
         <div class="sticky-header">

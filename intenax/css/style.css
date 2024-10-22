@@ -627,6 +627,12 @@ img{
 	background-color: rgba(0,0,0,0);
 }
 
+@media (max-width: 768px) {
+	.main-header {
+		position: relative;
+	}
+}
+
 /* Header Top */
 
 .main-header .header-top{
@@ -1454,8 +1460,9 @@ img{
 	line-height: 40px;
 	cursor: pointer;
 	color:#e9c37a;
-	padding:10px 0px;
+	padding:10px 10px;
 	display: none;
+	background-color: white;
 }
 
 .mobile-menu{
