@@ -4913,7 +4913,7 @@ img{
 
 .services-section-two .left-column .inner-column{
 	position:relative;
-	padding-left:70px;
+	padding-left:0px;
 	padding-right:20px;
 }
 
@@ -5582,8 +5582,13 @@ img{
 
 .sponsors-section-two{
 	position:relative;
-	padding:60px 0px 60px;
+	padding:10px 0px 60px;
 	background-color:#f4f4f4;
+}
+
+.sponsors-section-two>h2 {
+	text-align: center;
+	font-size: 30px;
 }
 
 .sponsors-section-two .sponsors-outer{

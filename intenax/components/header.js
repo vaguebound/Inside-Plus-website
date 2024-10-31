@@ -38,11 +38,7 @@ class Header extends HTMLElement {
 								<ul class="navigation clearfix">
 									<li id="myHome"><a href="index.html">Home</a>
 									</li>
-									<li id="myAboutus" class="dropdown"><a href="#">About Us</a>
-										<ul>
-											<li><a href="team.html">Meet Our Team</a></li>
-										</ul>
-
+									<li id="myAboutus" class="dropdown"><a href="team.html">About Us</a>
 									</li>
 									<li id="myServices" class="dropdown"><a href="#">Services</a>
 										<ul>
