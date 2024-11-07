@@ -12,6 +12,7 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 <script src="components/header.js" type="text/javascript"></script>
+<script src="components/footer.js" type="text/javascript"></script>
 
 
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -36,9 +37,10 @@
 
 	<script>
 		function replaceClass() {
-		  const element = document.getElementById('myHome');
+		  const element = document.getElementById('myProjects');
 		  element.className = ''; // Remove all classes
 		  element.classList.add('current'); // Add the new class
+		  element.classList.add('dropdown'); // Add the new class
 		}
 		replaceClass();
 	  </script>
@@ -51,7 +53,7 @@
                 <ul>
                     
 					<li data-transition="slidingoverlayhorizontal" data-description="Slide Description"  data-index="rs-1688" data-slotamount="default" data-thumb="images/main-slider/1.jpg" data-title="Slide Title">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/1.jpg">
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/interiorslide1.jpg">
                     
                     <div class="tp-caption "
                     data-paddingbottom="[0,0,0,0]"
@@ -88,7 +90,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[150%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
-                        <div class="text">Bespoke Luxury & Architecture Designing</div>
+                        <div class="text">Bespoke Luxury & Interior Designing</div>
                     </div>
                     
                     <div class="tp-caption tp-resizeme" 
@@ -107,16 +109,12 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'>
-						<!-- Link Box -->
-                        <div class="link-box">
-                            <a href="services.html" class="theme-btn btn-style-one">Learn more</a>
-                        </div>
                     </div>
 					
 					</li>
                     
 					<li data-transition="slidingoverlayhorizontal" data-description="Slide Description"  data-index="rs-1689" data-slotamount="default" data-thumb="images/main-slider/2.jpg" data-title="Slide Title">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/2.jpg">
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/main-slider/interiorslide2.jpg">
                     
                     <div class="tp-caption "
                     data-paddingbottom="[0,0,0,0]"
@@ -153,7 +151,7 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[150%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
-                        <div class="text">Bespoke Luxury & Architecture Designing</div>
+                        <div class="text">Bespoke Luxury & Interior Designing</div>
                     </div>
                     
                     <div class="tp-caption tp-resizeme" 
@@ -172,10 +170,6 @@
                     data-y="['middle','middle','middle','middle']"
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'>
-						<!-- Link Box -->
-                        <div class="link-box">
-                            <a href="services.html" class="theme-btn btn-style-one">Learn more</a>
-                        </div>
                     </div>
 					
 					</li>
@@ -186,520 +180,6 @@
     </section>
     <!--End Main Slider-->
 	
-	<!-- About Section -->
-	<section class="about-section">
-		<div class="pattern-layer" style="background-image:url(images/background/pattern-1.png)"></div>
-		<div class="auto-container">
-			<!-- Title Box -->
-			<div class="title-box">
-				<div class="row clearfix">
-					<div class="col-lg-5 col-md-12 col-sm-12">
-						<!-- Sec Title -->
-						<div class="sec-title">
-							<div class="inner-title">
-								<div class="title">about Inside Plus</div>
-								<h2>We are passionate and always produce better results for interiors.</h2>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-7 col-md-12 col-sm-12">
-						<div class="bold-text">Inside Plus Private Limited is your comprehensive destination for elevating architectural and interior design solutions, serving the realms of residential, commercial and leisure spaces. Our offerings extend beyond mere aesthetics, we are your partners in the entire journey from conception to completion.</div>
-						<div class="text">Envisioned by our talented team of architects, engineers, and interior designers, your space is meticulously designed to embody your vision. But we don't stop at design, we embrace the full spectrum of DESIGN & BUILD services. Our dedicated project management and construction experts bring your interior concept to life.
-
-							<br><br>With Inside Plus, you can rest assured that every detail is impeccably managed, from conceptualisation to detail design and overseeing construction to sourcing materials. As you relax, we diligently work behind the scenes to meet deadlines, ensuring your project is not only completed on time but with the utmost finesse. Our ultimate goal is to deliver a finished product that embodies your vision and leaves you entirely satisfied.</div>
-						<div class="signature"><img src="images/icons/signature.png" alt="" /></div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="row clearfix">
-				
-				<!-- Services Block -->
-				<div class="services-block col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-						<div class="image">
-							<a href="service-interior.html"><img src="images/resource/service-1.jpg" alt="" /></a>
-						</div>
-						<div class="lower-box">
-							<h3><a href="service-interior.html">Committed to Work</a></h3>
-							<div class="text"> Duo hinc omnis maluisset</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Services Block -->
-				<div class="services-block col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-						<div class="image">
-							<a href="service-interior.html"><img src="images/resource/service-2.jpg" alt="" /></a>
-						</div>
-						<div class="lower-box">
-							<h3><a href="service-interior.html">Live Detailed Ideas</a></h3>
-							<div class="text"> Duo hinc omnis maluisset</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Services Block -->
-				<div class="services-block col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-						<div class="image">
-							<a href="service-interior.html"><img src="images/resource/service-3.jpg" alt="" /></a>
-						</div>
-						<div class="lower-box">
-							<h3><a href="service-interior.html">With Signature Style</a></h3>
-							<div class="text"> Duo hinc omnis maluisset</div>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-			
-		</div>
-	</section>
-	<!-- End About Section -->
-	
-	<!-- Fullwidth Section -->
-	<section class="container-fluid">
-		<div class="pattern-layer paroller" data-paroller-factor="0.10" data-paroller-factor-lg="0.10" data-paroller-factor-md="0.10" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="horizontal" style="background-image:url(images/background/pattern-2.png)"></div>
-		<div class="outer-section">
-			<div class="clearfix">
-				
-				<!-- Left Column -->
-				<div class="left-column">
-					<div class="inner-column clearfix">
-						<!-- Sec Title -->
-						<div class="sec-title">
-							<div class="inner-title">
-								<div class="title">Branded Services</div>
-								<h2>We Offers Ideas With Impressive Details .</h2>
-							</div>
-						</div>
-						<div class="text">Along goodness hey this sed ipsum dui manatee for the one asfers since far flustered impressive your longtails opened inside owing ipsum epunitively. Nehil moderatius vimpot dish euitas iuvaret reformid.</div>
-					</div>
-				</div>
-				
-				<!-- Right Column -->
-				<div class="right-column">
-					<div class="inner-column">
-						<div class="three-item-carousel owl-carousel owl-theme">
-							
-							<!-- Services Block Two -->
-							<div class="services-block-two">
-								<div class="inner-box">
-									<div class="image">
-										<img src="images/resource/service-4.jpg" alt="" />
-										<div class="overlay-box">
-											<h3><a href="#">Floor Plans</a></h3>
-                                            <div class="links-box">
-                                            	<a class="link" href="service-plans.html"><span class="fa fa-link"></span></a>
-                                                <a class="link lightbox-image" href="images/resource/service-4.jpg"><span class="fa fa-search"></span></a>
-                                            </div>
-										</div>
-									</div>
-								</div>
-							</div>
-							
-							<!-- Services Block Two -->
-							<div class="services-block-two">
-								<div class="inner-box">
-									<div class="image">
-										<img src="images/resource/service-5.jpg" alt="" />
-										<div class="overlay-box">
-											<h3><a href="#">Interiors</a></h3>
-                                            <div class="links-box">
-                                            	<a class="link" href="service-interior.html"><span class="fa fa-link"></span></a>
-                                                <a class="link lightbox-image" href="images/resource/service-5.jpg"><span class="fa fa-search"></span></a>
-                                            </div>
-										</div>
-									</div>
-								</div>
-							</div>
-							
-							<!-- Services Block Two -->
-							<div class="services-block-two">
-								<div class="inner-box">
-									<div class="image">
-										<img src="images/resource/service-6.jpg" alt="" />
-										<div class="overlay-box">
-											<h3><a href="#">Architectures</a></h3>
-                                            <div class="links-box">
-                                            	<a class="link" href="service-architecture.html"><span class="fa fa-link"></span></a>
-                                                <a class="link lightbox-image" href="images/resource/service-6.jpg"><span class="fa fa-search"></span></a>
-                                            </div>
-										</div>
-									</div>
-								</div>
-							</div>
-							
-							<!-- Services Block Two -->
-							<div class="services-block-two">
-								<div class="inner-box">
-									<div class="image">
-										<img src="images/resource/service-4.jpg" alt="" />
-										<div class="overlay-box">
-											<h3><a href="#">Floor Plans</a></h3>
-                                            <div class="links-box">
-                                            	<a class="link" href="service-plans.html"><span class="fa fa-link"></span></a>
-                                                <a class="link lightbox-image" href="images/resource/service-4.jpg"><span class="fa fa-search"></span></a>
-                                            </div>
-										</div>
-									</div>
-								</div>
-							</div>
-							
-							<!-- Services Block Two -->
-							<div class="services-block-two">
-								<div class="inner-box">
-									<div class="image">
-										<img src="images/resource/service-5.jpg" alt="" />
-										<div class="overlay-box">
-											<h3><a href="#">Interiors</a></h3>
-                                            <div class="links-box">
-                                            	<a class="link" href="service-interior.html"><span class="fa fa-link"></span></a>
-                                                <a class="link lightbox-image" href="images/resource/service-5.jpg"><span class="fa fa-search"></span></a>
-                                            </div>
-										</div>
-									</div>
-								</div>
-							</div>
-							
-							<!-- Services Block Two -->
-							<div class="services-block-two">
-								<div class="inner-box">
-									<div class="image">
-										<img src="images/resource/service-6.jpg" alt="" />
-										<div class="overlay-box">
-											<h3><a href="#">Architectures</a></h3>
-                                            <div class="links-box">
-                                            	<a class="link" href="service-architecture.html"><span class="fa fa-link"></span></a>
-                                                <a class="link lightbox-image" href="images/resource/service-6.jpg"><span class="fa fa-search"></span></a>
-                                            </div>
-										</div>
-									</div>
-								</div>
-							</div>
-							
-						</div>
-                        
-                        
-						<div class="image-layer" style="background-image:url(images/background/1.jpg)"></div>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	
-	<!-- Story Section -->
-	<section class="story-section">
-		<div class="auto-container">
-			
-			<!-- Story Block -->
-			<div class="story-block">
-				<div class="pattern-layer" style="background-image:url(images/background/pattern-3.png)"></div>
-				<div class="inner-box">
-					<div class="clearfix">
-						
-						<!-- Image Column -->
-						<div class="image-column col-lg-6 col-md-12 col-sm-12">
-							<div class="inner-column wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-								<div class="image">
-									<img src="images/resource/story-1.jpg" alt="" />
-								</div>
-							</div>
-						</div>
-						
-						<!-- Content Column -->
-						<div class="content-column col-lg-6 col-md-12 col-sm-12">
-							<!-- Sec Title -->
-							<div class="sec-title">
-								<div class="inner-title">
-									<div class="title">story of Intenax</div>
-									<h2>Power of Decysions.</h2>
-								</div>
-							</div>
-							<div class="inner-column wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-								<div class="text">
-									<p>Convenire gubergren ex vix. Habeo facete pri ei. Putent maluisset intellegam vix te, vim prompta facilisi interesset te. An denique praesent pro, in <span>torquatos adipiscing pro,</span> pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet et duo, cu postea laoreet vulputate has.</p>
-									<p>Beyond more stoic this along goodness hey this this wow manatee mongoose one as since a far flustered impressive manifest far crud opened inside owing punitively around</p>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			
-			<!-- Story Block Two -->
-			<div class="story-block-two">
-				<div class="pattern-layer" style="background-image:url(images/background/pattern-3.png)"></div>
-				<div class="inner-box">
-					<div class="clearfix">
-						
-						<!-- Image Column -->
-						<div class="image-column col-lg-6 col-md-12 col-sm-12">
-							<div class="inner-column wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-								<div class="image">
-									<img src="images/resource/story-2.jpg" alt="" />
-								</div>
-							</div>
-						</div>
-						
-						<!-- Content Column -->
-						<div class="content-column col-lg-6 col-md-12 col-sm-12">
-							<!-- Sec Title -->
-							<div class="sec-title">
-								<div class="inner-title">
-									<div class="title">story of Intenax</div>
-									<h2>Strength of Planning .</h2>
-								</div>
-							</div>
-							<div class="inner-column wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-								<div class="text">
-									<p>Convenire gubergren ex vix. Habeo facete pri ei. Putent maluisset intellegam vix te, vim prompta facilisi interesset te. An denique praesent pro, in torquatos <strong>adipiscing pro pro no odio modus.</strong> Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet et duo, cu postea laoreet vulputate has.</p>
-									<p>Beyond <span>more stoic this along goodness hey</span> this this wow manatee mongoose one as since a far flustered impressive manifest far crud opened inside owing punitively around</p>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			
-		</div>
-	</section>
-	<!-- End Story Section -->
-	
-	<!-- Product Tab Section -->
-	<section class="product-tab-section" style="background-image:url(images/background/2.jpg)">
-		<div class="auto-container">
-			<!-- Content Box -->
-			<div class="content-box">
-				<div class="inner-content">
-					<!-- Sec Title -->
-					<div class="sec-title">
-						<div class="inner-title">
-							<h2>Providing Customized Design <br> Solutions That Fits Every Space .</h2>
-							<div class="text">Beyond more stoic this along goodness hey this this wow manate <br> far impressive manifest farcrud opened inside.</div>
-						</div>
-					</div>
-					
-					<!--Design Info Tabs-->
-					<div class="design-info-tabs">
-						<!--Design Tabs-->
-						<div class="design-tabs tabs-box">
-						
-							<!--Tab Btns-->
-							<ul class="tab-btns tab-buttons clearfix">
-								<li data-tab="#prod-innovation" class="tab-btn active-btn">innovation</li>
-								<li data-tab="#prod-assurance" class="tab-btn">assurance</li>
-								<li data-tab="#prod-precision" class="tab-btn">precision</li>
-							</ul>
-							
-							<!--Tabs Container-->
-							<div class="tabs-content">
-								
-								<!--Tab / Active Tab-->
-								<div class="tab active-tab" id="prod-innovation">
-									<div class="content">
-										<div class="text">Fustered impressive manifest crud opened inside owing punitively around forewent and after wasteful telling sprang coldly and spoke less clients. Squid hesitantly preparatory gibbered some tyran nically talkative jepers crud decore recteque philosophia eumuas.</div>
-										<a href="#" class="theme-btn btn-style-two">learn more</a>
-									</div>
-								</div>
-								
-								<!-- Tab -->
-								<div class="tab" id="prod-assurance">
-									<div class="content">
-										<div class="text">Fustered impressive manifest crud opened inside owing punitively around forewent and after wasteful telling sprang coldly and spoke less clients. Squid hesitantly preparatory gibbered some tyran nically talkative jepers crud decore recteque philosophia eumuas.</div>
-										<a href="#" class="theme-btn btn-style-two">learn more</a>
-									</div>
-								</div>
-								
-								<!-- Tab -->
-								<div class="tab" id="prod-precision">
-									<div class="content">
-										<div class="text">Fustered impressive manifest crud opened inside owing punitively around forewent and after wasteful telling sprang coldly and spoke less clients. Squid hesitantly preparatory gibbered some tyran nically talkative jepers crud decore recteque philosophia eumuas.</div>
-										<a href="#" class="theme-btn btn-style-two">learn more</a>
-									</div>
-								</div>
-
-							</div>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Product Tab Section -->
-	
-	<!-- Projects Section -->
-	<section class="projects-section">
-		<div class="pattern-layer" style="background-image:url(images/background/pattern-4.png)"></div>
-		<div class="outer-container">
-			<div class="clearfix">
-				
-				<div class="column col-lg-3 col-md-6 col-sm-12">
-				
-					<!-- Project Block -->
-					<div class="project-block">
-						<div class="inner-box">
-							<div class="image">
-								<img src="images/gallery/1.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="overlay-content">
-											<a class="plus" href="images/gallery/1.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-											<h3><a href="team.html">Portion Interior</a></h3>
-											<div class="category">Home Design</div>
-										</div>
-									</div>
-								</div>	
-								
-							</div>
-						</div>
-					</div>
-					
-					<!-- Project Block -->
-					<div class="project-block">
-						<div class="inner-box">
-							<div class="image">
-								<img src="images/gallery/2.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="overlay-content">
-											<a class="plus" href="images/gallery/2.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-											<h3><a href="team.html">Portion Interior</a></h3>
-											<div class="category">Home Design</div>
-										</div>
-									</div>
-								</div>	
-								
-							</div>
-						</div>
-					</div>
-					
-				</div>
-				
-				<div class="column col-lg-3 col-md-6 col-sm-12">
-					
-					<!-- Project Block -->
-					<div class="project-block">
-						<div class="inner-box">
-							<div class="image">
-								<img src="images/gallery/3.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="overlay-content">
-											<a class="plus" href="images/gallery/3.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-											<h3><a href="team.html">Portion Interior</a></h3>
-											<div class="category">Home Design</div>
-										</div>
-									</div>
-								</div>	
-								
-							</div>
-						</div>
-					</div>
-					
-				</div>
-				
-				<div class="column col-lg-3 col-md-6 col-sm-12">
-					
-					<!-- Project Block -->
-					<div class="project-block">
-						<div class="inner-box">
-							<div class="image">
-								<img src="images/gallery/4.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="overlay-content">
-											<a class="plus" href="images/gallery/4.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-											<h3><a href="team.html">Portion Interior</a></h3>
-											<div class="category">Home Design</div>
-										</div>
-									</div>
-								</div>	
-								
-							</div>
-						</div>
-					</div>
-					
-					<!-- Project Block -->
-					<div class="project-block">
-						<div class="inner-box">
-							<div class="image">
-								<img src="images/gallery/5.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="overlay-content">
-											<a class="plus" href="images/gallery/5.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-											<h3><a href="team.html">Portion Interior</a></h3>
-											<div class="category">Home Design</div>
-										</div>
-									</div>
-								</div>	
-								
-							</div>
-						</div>
-					</div>
-					
-				</div>
-				
-				<div class="column col-lg-3 col-md-6 col-sm-12">
-					
-					<!-- Project Block -->
-					<div class="project-block">
-						<div class="inner-box">
-							<div class="image">
-								<img src="images/gallery/6.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="overlay-content">
-											<a class="plus" href="images/gallery/6.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-											<h3><a href="team.html">Portion Interior</a></h3>
-											<div class="category">Home Design</div>
-										</div>
-									</div>
-								</div>	
-								
-							</div>
-						</div>
-					</div>
-					
-					<!-- Project Block -->
-					<div class="project-block">
-						<div class="inner-box">
-							<div class="image">
-								<img src="images/gallery/7.jpg" alt="" />
-								<!-- Overlay Box -->
-								<div class="overlay-box">
-									<div class="overlay-inner">
-										<div class="overlay-content">
-											<a class="plus" href="images/gallery/7.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-											<h3><a href="team.html">Portion Interior</a></h3>
-											<div class="category">Home Design</div>
-										</div>
-									</div>
-								</div>	
-								
-							</div>
-						</div>
-					</div>
-					
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	<!-- End Projects Section -->
 	
 	<!-- Counter Section -->
 	<section class="counter-section">
@@ -723,7 +203,7 @@
 						</div>
 						<div class="content-box">
 							<div class="count-box">
-								<span class="count-text" data-speed="3500" data-stop="20">0</span>
+								<span class="count-text" data-speed="3500" data-stop="1021">0</span>
 							</div>
 							<div class="text">projects completed</div>
 						</div>
@@ -735,7 +215,7 @@
 					<div class="inner-box row">
 						<div class="content-box">
 							<div class="count-box">
-								<span class="count-text" data-speed="2500" data-stop="16">0</span>
+								<span class="count-text" data-speed="2500" data-stop="55">0</span>
 							</div>
 							<div class="text">No. of staff</div>
 						</div>
@@ -753,7 +233,7 @@
 						</div>
 						<div class="content-box">
 							<div class="count-box">
-								<span class="count-text" data-speed="3500" data-stop="12">0</span>
+								<span class="count-text" data-speed="3500" data-stop="11">0</span>
 							</div>
 							<div class="text">Years of expertise</div>
 						</div>
@@ -765,7 +245,7 @@
 					<div class="inner-box row">
 						<div class="content-box">
 							<div class="count-box">
-								<span class="count-text" data-speed="3500" data-stop="50">0</span>
+								<span class="count-text" data-speed="3500" data-stop="513">0</span>
 							</div>
 							<div class="text"># of clients</div>
 						</div>
@@ -780,281 +260,225 @@
 		</div>
 	</section>
 	
-	<!-- Testimonial Section -->
-	<section class="testimonial-section" style="background-image:url(images/background/3.jpg)">
-		<div class="auto-container">
-			<div class="testimonial-carousel owl-carousel owl-theme">
-				
-				<!-- Testimonial Block -->
-				<div class="testimonial-block">
-					<div class="inner-box">
-						<div class="quote-icon flaticon-left-quote"></div>
-						<div class="title">- INTENAX -</div>
-						<div class="text">Habeo facete pri ei. Putent maluisset intellegam vix te, vim prompta facilisi interesset te. An denique praesent pro torquatos adipiscing pro, pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet etduo, cu postea laoreet vulputate has. Beyond more stoic this along goodness hey this this wow manatee mongoose one as since a far flustered impressive manifest far crud opened inside owing punitively around</div>
-						<div class="author-name">thomas henry</div>
-					</div>
-				</div>
-				
-				<!-- Testimonial Block -->
-				<div class="testimonial-block">
-					<div class="inner-box">
-						<div class="quote-icon flaticon-left-quote"></div>
-						<div class="title">- INTENAX -</div>
-						<div class="text">Habeo facete pri ei. Putent maluisset intellegam vix te, vim prompta facilisi interesset te. An denique praesent pro torquatos adipiscing pro, pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet etduo, cu postea laoreet vulputate has. Beyond more stoic this along goodness hey this this wow manatee mongoose one as since a far flustered impressive manifest far crud opened inside owing punitively around</div>
-						<div class="author-name">thomas henry</div>
-					</div>
-				</div>
-				
-				<!-- Testimonial Block -->
-				<div class="testimonial-block">
-					<div class="inner-box">
-						<div class="quote-icon flaticon-left-quote"></div>
-						<div class="title">- INTENAX -</div>
-						<div class="text">Habeo facete pri ei. Putent maluisset intellegam vix te, vim prompta facilisi interesset te. An denique praesent pro torquatos adipiscing pro, pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet etduo, cu postea laoreet vulputate has. Beyond more stoic this along goodness hey this this wow manatee mongoose one as since a far flustered impressive manifest far crud opened inside owing punitively around</div>
-						<div class="author-name">thomas henry</div>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	<!-- End Testimonial Section -->
 	
-	<!-- Team Section -->
-	<section class="team-section">
-		<div class="pattern-layer" style="background-image:url(images/background/pattern-6.png)"></div>
-		<div class="auto-container">
-			<!-- Title Box -->
-			<div class="sec-title">
-				<div class="row clearfix">
-					<div class="col-lg-5 col-md-12 col-sm-12">
-						<div class="inner-title">
-							<div class="title">Passionate team</div>
-							<h2>Creative Minds Always <br> Think Someting .</h2>
-						</div>
-					</div>
-					<div class="col-lg-7 col-md-12 col-sm-12">
-						<div class="text">Bar flustered impressive manifest far crud opened inside owing punitively around forewent and after wasteful telling sprang coldly and spoke less clients.</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="row clearfix">
+	<!-- Projects Section -->
+	<section class="projects-section">
+		<div class="pattern-layer" style="background-image:url(images/background/pattern-4.png)"></div>
+		<div class="outer-container">
+			<div class="clearfix">
 				
-				<!-- Team Block -->
-				<div class="team-block col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-						<div class="image">
-							<img src="images/resource/team-1.jpg" alt="" />
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="content">
-										<div class="phone"><span>Phone:</span> <a href="tel:+12345018607">+1 (234) 501 8607</a></div>
-										<ul class="social-links">
-											<li><a href="#"><span class="fa fa-behance"></span></a></li>
-											<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-											<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-											<li><a href="#"><span class="fa fa-twitter"></span></a></li>											
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="lower-content">
-							<h3><a href="about-me.html">Robert Vyner</a></h3>
-							<div class="designation">founder</div>
-						</div>
-					</div>
-				</div>
+				<div class="column col-lg-3 col-md-6 col-sm-12">
 				
-				<!-- Team Block -->
-				<div class="team-block col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-						<div class="image">
-							<img src="images/resource/team-2.jpg" alt="" />
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="content">
-										<div class="phone"><span>Phone:</span> <a href="tel:+12345018607">+1 (234) 501 8607</a></div>
-										<ul class="social-links">
-											<li><a href="#"><span class="fa fa-behance"></span></a></li>
-											<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-											<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-											<li><a href="#"><span class="fa fa-twitter"></span></a></li>											
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="lower-content">
-							<h3><a href="about-me.html">Scott K. Irvine</a></h3>
-							<div class="designation">ARCHITECT</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Team Block -->
-				<div class="team-block col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-						<div class="image">
-							<img src="images/resource/team-3.jpg" alt="" />
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="content">
-										<div class="phone"><span>Phone:</span> <a href="tel:+12345018607">+1 (234) 501 8607</a></div>
-										<ul class="social-links">
-											<li><a href="#"><span class="fa fa-behance"></span></a></li>
-											<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-											<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-											<li><a href="#"><span class="fa fa-twitter"></span></a></li>											
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="lower-content">
-							<h3><a href="about-me.html">Winnie Jones</a></h3>
-							<div class="designation">designer</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Team Block -->
-				<div class="team-block col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
-						<div class="image">
-							<img src="images/resource/team-4.jpg" alt="" />
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="content">
-										<div class="phone"><span>Phone:</span> <a href="tel:+12345018607">+1 (234) 501 8607</a></div>
-										<ul class="social-links">
-											<li><a href="#"><span class="fa fa-behance"></span></a></li>
-											<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-											<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-											<li><a href="#"><span class="fa fa-twitter"></span></a></li>											
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="lower-content">
-							<h3><a href="about-me.html">Lewis Kubica</a></h3>
-							<div class="designation">manager</div>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-			
-		</div>
-	</section>
-	<!-- End Team Section -->
-	
-	<!--Sponsors Section-->
-    <section class="sponsors-section">
-    	<div class="container">
-        	
-            <div class="sponsors-outer">
-                <!--Sponsors Carousel-->
-                <ul class="sponsors-carousel owl-carousel owl-theme">
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
-                </ul>
-            </div>
-            
-        </div>
-    </section>
-    <!--End Sponsors Section-->
-	
-	<section class="news-section">
-		<div class="auto-container">
-			<!-- Sec Title -->
-			<div class="sec-title centered">
-				<div class="inner-title">
-					<div class="title">What’s happening</div>
-					<h2>News & Updates .</h2>
-				</div>
-			</div>
-			<div class="row clearfix">
-				
-				<!-- News Column -->
-				<div class="news-column col-lg-6 col-md-12 col-sm-12">
-					
-					<!-- News Block -->
-					<div class="news-block">
-						<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+					<!-- Project Block -->
+					<div class="project-block">
+						<div class="inner-box">
 							<div class="image">
-								<a href="blog-single.html"><img src="images/resource/news-1.jpg" alt="" /></a>
+								<img src="images/gallery/coffeebean.jpg" alt="" />
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<!-- Main Image -->
+											<a class="plus" href="images/gallery/coffeebean_big.jpg" data-fancybox="gallery-1" data-caption="Main Image"><span class="flaticon-full-screen"></span></a>
+											<h3><a href="#" onclick="return false;">COFFEE BEAN & TEA LEAF SURFVIEW (CBTL)</a></h3>
+											<div class="category">Restaurant Design</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Additional Images for the Same Project (hidden thumbnails) -->
+								<a href="images/gallery/coffeebean_2.jpg" data-fancybox="gallery-1" data-caption="Image 2" style="display: none;"></a>
+								<a href="images/gallery/coffeebean_3.jpg" data-fancybox="gallery-1" data-caption="Image 3" style="display: none;"></a>
+	
+								
 							</div>
-							<div class="lower-content">
-								<div class="post-date">January 31, 2019</div>
-								<h3><a href="blog-single.html">Design of Building: Planning to Peforming</a></h3>
-								<ul class="post-meta">
-									<li>By Andrew Smith</li>
-									<li>Architecture Design</li>
-								</ul>
+						</div>
+					</div>
+					
+					<!-- Project Block -->
+					<div class="project-block">
+						<div class="inner-box">
+							<div class="image">
+								<img src="images/gallery/rainpalm.jpg" alt="" />
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<a class="plus" href="images/gallery/rainpalm_big.jpg" data-fancybox="gallery-2" data-caption="Main Image"><span class="flaticon-full-screen"></span></a>
+											<h3><a href="#" onclick="return false;">RAIN PALM & RAIN PEARL</a></h3>
+											<div class="category">Residential Design</div>
+										</div>
+									</div>
+								</div>
+								
+								<a href="images/gallery/rainpalm_2.jpg" data-fancybox="gallery-2" data-caption="Image 2" style="display: none;"></a>
+								<a href="images/gallery/rainpalm_3.jpg" data-fancybox="gallery-2" data-caption="Image 3" style="display: none;"></a>
+
+								
 							</div>
 						</div>
 					</div>
 					
 				</div>
 				
-				<!-- News Column -->
-				<div class="news-column col-lg-6 col-md-12 col-sm-12">
+				<div class="column col-lg-3 col-md-6 col-sm-12">
 					
-					<!-- News Block -->
-					<div class="news-block-two">
-						<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-							<div class="row clearfix">
-								<!-- Image Column -->
-								<div class="image-column col-lg-5 col-md-5 col-sm-12">
-									<div class="image">
-										<a href="blog-single.html"><img src="images/resource/news-2.jpg" alt="" /></a>
+					<!-- Project Block -->
+					<div class="project-block">
+						<div class="inner-box">
+							<div class="image">
+								<img src="images/gallery/aquavita.jpg" alt="" />
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<a class="plus" href="images/gallery/aquavita_big.jpg" data-fancybox="gallery-3" data-caption="Main Image"><span class="flaticon-full-screen"></span></a>
+											<h3><a href="#" onclick="return false;">AQUA VITA</a></h3>
+											<div class="category">Restaurant Design</div>
+										</div>
 									</div>
 								</div>
-								<!-- Content Column -->
-								<div class="content-column col-lg-7 col-md-7 col-sm-12">
-									<div class="inner-column">
-										<div class="post-date">January 31, 2019</div>
-										<h3><a href="blog-single.html">Our Practise Offers You Exclusive Designs</a></h3>
-										<ul class="post-meta">
-											<li>By Andrew Smith</li>
-											<li>Architecture Design</li>
-										</ul>
+								
+								<a href="images/gallery/aquavita_2.jpg" data-fancybox="gallery-3" data-caption="Image 2" style="display: none;"></a>
+								<a href="images/gallery/aquavita_3.jpg" data-fancybox="gallery-3" data-caption="Image 3" style="display: none;"></a>
+
+
+								
+							</div>
+						</div>
+					</div>
+
+					<!-- Project Block -->
+					<div class="project-block">
+						<div class="inner-box">
+							<div class="image">
+								<img src="images/gallery/nadaclinic.jpg" alt="" />
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<a class="plus" href="images/gallery/nadaclinic_big.jpg" data-fancybox="gallery-8" data-caption="Main Image"><span class="flaticon-full-screen"></span></a>
+											<h3><a href="#" onclick="return false;">NADA CLINIC</a></h3>
+											<div class="category">Clinic Design</div>
+										</div>
 									</div>
 								</div>
+								
+								<a href="images/gallery/nadaclinic_2.jpg" data-fancybox="gallery-8" data-caption="Image 2" style="display: none;"></a>
+								<a href="images/gallery/nadaclinic_3.jpg" data-fancybox="gallery-8" data-caption="Image 3" style="display: none;"></a>
+
+
+								
 							</div>
 						</div>
 					</div>
 					
-					<!-- News Block -->
-					<div class="news-block-two">
-						<div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-							<div class="row clearfix">
-								<!-- Image Column -->
-								<div class="image-column col-lg-5 col-md-5 col-sm-12">
-									<div class="image">
-										<a href="blog-single.html"><img src="images/resource/news-3.jpg" alt="" /></a>
+					
+				</div>
+				
+				<div class="column col-lg-3 col-md-6 col-sm-12">
+					
+					<!-- Project Block -->
+					<div class="project-block">
+						<div class="inner-box">
+							<div class="image">
+								<img src="images/gallery/kashmeer.jpg" alt="" />
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<a class="plus" href="images/gallery/kashmeer_big.jpg" data-fancybox="gallery-4" data-caption="Main Image"><span class="flaticon-full-screen"></span></a>
+											<h3><a href="#" onclick="return false;">KASHMEER GARDEN</a></h3>
+											<div class="category">Home Design</div>
+										</div>
 									</div>
-								</div>
-								<!-- Content Column -->
-								<div class="content-column col-lg-7 col-md-7 col-sm-12">
-									<div class="inner-column">
-										<div class="post-date">January 31, 2019</div>
-										<h3><a href="blog-single.html">Tips For Self-Made Home Interior Layouts</a></h3>
-										<ul class="post-meta">
-											<li>By Andrew Smith</li>
-											<li>Architecture Design</li>
-										</ul>
+								</div>	
+
+								<a href="images/gallery/kashmeer_2.jpg" data-fancybox="gallery-4" data-caption="Image 2" style="display: none;"></a>
+								<a href="images/gallery/kashmeer_3.jpg" data-fancybox="gallery-4" data-caption="Image 3" style="display: none;"></a>
+
+
+								
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block -->
+					<div class="project-block">
+						<div class="inner-box">
+							<div class="image">
+								<img src="images/gallery/surfview.jpg" alt="" />
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<a class="plus" href="images/gallery/surfview_big.jpg" data-fancybox="gallery-5" data-caption="Main Image"><span class="flaticon-full-screen"></span></a>
+											<h3><a href="#" onclick="return false;">Surfview Hotels</a></h3>
+											<div class="category">Hotel Design</div>
+										</div>
 									</div>
-								</div>
+								</div>	
+
+								<a href="images/gallery/surfview_2.jpg" data-fancybox="gallery-5" data-caption="Image 2" style="display: none;"></a>
+								<a href="images/gallery/surfview_3.jpg" data-fancybox="gallery-5" data-caption="Image 3" style="display: none;"></a>
+
+
+								
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="column col-lg-3 col-md-6 col-sm-12">
+					
+					<!-- Project Block -->
+					<div class="project-block">
+						<div class="inner-box">
+							<div class="image">
+								<img src="images/gallery/Marmoris.jpg" alt="" />
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<a class="plus" href="images/gallery/Marmoris_big.jpg" data-fancybox="gallery-6" data-caption="Main Image"><span class="flaticon-full-screen"></span></a>
+											<h3><a href="#" onclick="return false;">MARMORIS YATCH</a></h3>
+											<div class="category">Yatch Design</div>
+										</div>
+									</div>
+								</div>	
+
+								<a href="images/gallery/marmoris_2.jpg" data-fancybox="gallery-6" data-caption="Image 2" style="display: none;"></a>
+								<a href="images/gallery/marmoris_3.jpg" data-fancybox="gallery-6" data-caption="Image 3" style="display: none;"></a>
+
+
+								
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block -->
+					<div class="project-block">
+						<div class="inner-box">
+							<div class="image">
+								<img src="images/gallery/canarylodge.jpg" alt="" />
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<a class="plus" href="images/gallery/canarylodge_big.jpg" data-fancybox="gallery-7" data-caption="Main Image"><span class="flaticon-full-screen"></span></a>
+											<h3><a href="#" onclick="return false;">CANARY LODGE - 
+												PRIVATE RESIDENCE</a></h3>
+											<div class="category">Penthouse Design</div>
+										</div>
+									</div>
+								</div>	
+
+								<a href="images/gallery/canarylodge_2.jpg" data-fancybox="gallery-7" data-caption="Image 2" style="display: none;"></a>
+								<a href="images/gallery/canarylodge_3.jpg" data-fancybox="gallery-7" data-caption="Image 3" style="display: none;"></a>
+
+
+								
 							</div>
 						</div>
 					</div>
@@ -1064,127 +488,14 @@
 			</div>
 		</div>
 	</section>
+	<!-- End Projects Section -->
 	
-	<!-- Newsletter Section -->
-	<section class="newsletter-section">
-		<div class="pattern-layer" style="background-image:url(images/background/pattern-7.png)"></div>
-		<div class="auto-container">
-			<div class="row clearfix">
-				<!-- Title Column -->
-				<div class="title-column col-lg-5 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<h2>INTENAX</h2>
-						<div class="text">Beyond more stoic this along goodness hey this news far flustered impressive manifest after all.</div>
-					</div>
-				</div>
-				<!-- Form Column -->
-				<div class="form-column col-lg-7 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<h3>Subscribe to Our Weekly Newsleter</h3>
-						<!-- Subscribe Form -->
-						<div class="subscribe-form">
-							<form method="post" action="contact.html">
-								<div class="form-group">
-									<input type="email" name="email" value="" placeholder="" required>
-									<button type="submit" class="theme-btn btn-style-one">subscribe</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Newsletter Section -->
 	
-	<!-- Main Footer -->
-    <footer class="main-footer">
-    	<div class="auto-container">
-        	<!--Widgets Section-->
-            <div class="widgets-section">
-            	<div class="row clearfix">
-                	
-                    <!--Column-->
-                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
-						<div class="row clearfix">
-						
-                        	<!--Footer Column-->
-                            <div class="footer-column col-lg-7 col-md-6 col-sm-12">
-                                <div class="footer-widget about-widget">
-									<ul class="social-links">
-										<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-										<li><a href="#"><span class="fa fa-pinterest-p"></span></a></li>
-										<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-										<li><a href="#"><span class="fa fa-instagram"></span></a></li>
-										<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-									</ul>
-									<div class="text">Sit eit malis civibus kase iuvaret bandit no kec, ipsum volumus indis aissentias referrentur vix euno utamur.</div>
-									<div class="copyright"><span>INTENAX</span> - Design & Architect <br> &copy; All rights reserved.</div>
-								</div>
-							</div>
-							
-							<!--Footer Column-->
-                            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
-                                <div class="footer-widget links-widget">
-									<h2>What we do</h2>
-									<ul class="footer-list">
-										<li><a href="#">Architecture</a></li>
-										<li><a href="#">Home Lighting</a></li>
-										<li><a href="#">Landscape Design</a></li>
-										<li><a href="#">Floor Planning</a></li>
-										<li><a href="#">Interior Design</a></li>
-										<li><a href="#">Exterior Works</a></li>
-									</ul>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-					
-					<!--Column-->
-                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
-						<div class="row clearfix">
-							
-							<!--Footer Column-->
-                            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                                <div class="footer-widget links-widget">
-									<h2>Sitemap</h2>
-									<ul class="footer-list">
-										<li><a href="#">Home</a></li>
-										<li><a href="#">About</a></li>
-										<li><a href="#">Services</a></li>
-										<li><a href="#">Our Projects</a></li>
-										<li><a href="#">Latest News</a></li>
-										<li><a href="#">Contact us</a></li>
-									</ul>
-								</div>
-							</div>
-							
-                        	<!--Footer Column-->
-                            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                                <div class="footer-widget contact-widget">
-									<h2>Contact</h2>
-									<ul class="contact-list">
-										<li>Adress: <span>63 Nelson Base, Florida</span></li>
-										<li>Phone: <span><a href="tel:+12345018607">+1 (234) 501 8607</a></span></li>
-										<li>Email: <span><a href="mailto:info@intenax.net">info@intenax.net</a></span></li>
-									</ul>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		<!-- Footer Bottom Image -->
-		<div class="footer-bottom-image">
-			<div class="image">
-				<img src="images/background/4.jpg" alt="" />
-			</div>
-		</div>
-	</footer>
+	
+	
+	
+	<footer-component></footer-component>
+	
 	
 </div>
 <!--End pagewrapper-->
@@ -1192,35 +503,6 @@
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-double-up"></span></div>
 
-<!--Search Popup-->
-<div id="search-popup" class="search-popup">
-	<div class="close-search theme-btn"><span class="flaticon-cancel-1"></span></div>
-	<div class="popup-inner">
-		<div class="overlay-layer"></div>
-    	<div class="search-form">
-        	<form method="post" action="index.html">
-            	<div class="form-group">
-                	<fieldset>
-                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
-                        <input type="submit" value="Search Now!" class="theme-btn">
-                    </fieldset>
-                </div>
-            </form>
-            
-            <br>
-            <h3>Recent Search Keywords</h3>
-            <ul class="recent-searches">
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">SEO</a></li>
-                <li><a href="#">Logistics</a></li>
-                <li><a href="#">Freedom</a></li>
-            </ul>
-        
-        </div>
-        
-    </div>
-</div>
 
 <script src="js/jquery.js"></script>
 <script src="js/popper.min.js"></script>

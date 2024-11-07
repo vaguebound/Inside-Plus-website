@@ -9,6 +9,7 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 <script src="components/header.js" type="text/javascript"></script>
+<script src="components/footer.js" type="text/javascript"></script>
 
 
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
@@ -33,9 +34,10 @@
 
 	<script>
 		function replaceClass() {
-		  const element = document.getElementById('myHome');
+		  const element = document.getElementById('myServices');
 		  element.className = ''; // Remove all classes
 		  element.classList.add('current'); // Add the new class
+		  element.classList.add('dropdown')
 		}
 		replaceClass();
 	  </script>
@@ -43,11 +45,11 @@
 	<section class="page-title" style="background-image:url(images/background/20.jpg)">
 		<div class="auto-container">
 			<div class="content">
-				<h2>What We Offers</h2>
-				<div class="text">Bespoke Luxury & Architecture Designing</div>
+				<h2>Interior Design</h2>
+				<div class="text">Custom Luxury & Interior Design Solutions</div>
 				<ul class="page-breadcrumb">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="services.html">Our Services</a></li>
+					<li><a href="#" onclick="return false;">Our Services</a></li>
 					<li>Interior Design</li>
 				</ul>
 			</div>
@@ -75,7 +77,7 @@
 				<!-- Content Column -->
 				<div class="content-column col-lg-7 col-md-12 col-sm-12">
 					<div class="inner-column">
-						<div class="text">Beyond more stoic this along goodness hey this this wow manatee mongoose one as since a far flustered impressive manifest far crud opened inside owing punitively around forewent and after wasteful telling sprang coldly and spoke less clients. Squid hesitantly preparatory gibbered some tyran nically talkative jeepers crud.</div>
+						<div class="text">At Inside Plus Pvt Ltd, our passion for interior design drives us to transform spaces and enhance quality of life. Our dedicated team ensures every detail reflects our clients' vision, incorporating fresh ideas and the latest trends. We create functional and aesthetically pleasing environments that are both beautiful and practical, resulting in inspiring, lasting spaces.</div>
 						<ul class="list-style-one">
 							<li>We create spaces that allows to feel satisfied</li>
 							<li>Provide the most optimal interior design solutions</li>
@@ -102,8 +104,8 @@
 						<div class="icon-box">
 							<span class="icon flaticon-sketch"></span>
 						</div>
-						<h3><a href="#">Focus on Design</a></h3>
-						<div class="text">Convenire gubergren vix. Habeo facetpri put ent maluisset intellegam vixt vim prompta facil isi interesset. An denique praesent</div>
+						<h3><a href="projects-interior.html">Focus on Design</a></h3>
+						<div class="text">We prioritize design to enhance both aesthetics and functionality. Our team carefully considers color, texture, and lighting to create cohesive interiors that reflect our clients' unique styles and enrich their everyday lives.</div>
 					</div>
 				</div>
 				
@@ -113,8 +115,8 @@
 						<div class="icon-box">
 							<span class="icon flaticon-blueprint-2"></span>
 						</div>
-						<h3><a href="#">Deliver Optimal Solution</a></h3>
-						<div class="text">Convenire gubergren vix. Habeo facetpri put ent maluisset intellegam vixt vim prompta facil isi interesset. An denique praesent</div>
+						<h3><a href="projects-interior.html">Deliver Optimal Solution</a></h3>
+						<div class="text">We provide tailored interior design solutions that enhance functionality and aesthetics. By closely collaborating with clients, we create beautiful, practical environments that maximize space and reflect individual styles, ensuring that we meet and exceed expectations.</div>
 					</div>
 				</div>
 				
@@ -124,8 +126,8 @@
 						<div class="icon-box">
 							<span class="icon flaticon-sketch-4"></span>
 						</div>
-						<h3><a href="#">Seamless Integration</a></h3>
-						<div class="text">Convenire gubergren vix. Habeo facetpri put ent maluisset intellegam vixt vim prompta facil isi interesset. An denique praesent</div>
+						<h3><a href="projects-interior.html">Seamless Integration</a></h3>
+						<div class="text">We ensure seamless integration in our interior designs by harmonizing color, materials, and lighting. Our team collaborates closely with clients to create cohesive spaces that enhance both usability and aesthetic appeal, resulting in beautifully functional environments.</div>
 					</div>
 				</div>
 				
@@ -135,69 +137,171 @@
 	</section>
 	<!-- End Services Section Five -->
 	
-	<!-- Product Tab Section -->
-	<section class="product-tab-section" style="background-image:url(images/background/2.jpg)">
-		<div class="auto-container">
-			<!-- Content Box -->
-			<div class="content-box">
-				<div class="inner-content">
-					<!-- Sec Title -->
-					<div class="sec-title">
-						<div class="inner-title">
-							<h2>Providing Customized Design <br> Solutions That Fits Every Space .</h2>
-							<div class="text">Beyond more stoic this along goodness hey this this wow manate <br> far impressive manifest farcrud opened inside.</div>
+		<!-- Projects Section Two -->
+		<section class="project-section-two style-two">
+			<div class="outer-container">
+				<div class="four-item-carousel owl-carousel owl-theme">
+					
+					<!-- Project Block Two -->
+					<div class="project-block-two">
+						<div class="inner-box">
+							<div class="image">
+								<img src="images/gallery/coffeebean.jpg" alt="" />
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<a class="plus" href="images/gallery/coffeebean_big.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
+											<h3><a href="projects-interior.html">COFFEE BEAN & TEA LEAF SURFVIEW(CBTL)</a></h3>
+											<div class="category">Cafe' Design</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 					
-					<!--Design Info Tabs-->
-					<div class="design-info-tabs">
-						<!--Design Tabs-->
-						<div class="design-tabs tabs-box">
-						
-							<!--Tab Btns-->
-							<ul class="tab-btns tab-buttons clearfix">
-								<li data-tab="#prod-innovation" class="tab-btn active-btn">innovation</li>
-								<li data-tab="#prod-assurance" class="tab-btn">assurance</li>
-								<li data-tab="#prod-precision" class="tab-btn">precision</li>
-							</ul>
-							
-							<!--Tabs Container-->
-							<div class="tabs-content">
-								
-								<!--Tab / Active Tab-->
-								<div class="tab active-tab" id="prod-innovation">
-									<div class="content">
-										<div class="text">Fustered impressive manifest crud opened inside owing punitively around forewent and after wasteful telling sprang coldly and spoke less clients. Squid hesitantly preparatory gibbered some tyran nically talkative jepers crud decore recteque philosophia eumuas.</div>
-										<a href="#" class="theme-btn btn-style-two">learn more</a>
+					<!-- Project Block Two -->
+					<div class="project-block-two">
+						<div class="inner-box">
+							<div class="image">
+								<img src="images/gallery/rainpalm.jpg" alt="" />
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<a class="plus" href="images/gallery/rainpalm_big.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
+											<h3><a href="projects-interior.html">RAIN PALM & RAIN PEARL</a></h3>
+											<div class="category">Home Design</div>
+										</div>
 									</div>
 								</div>
-								
-								<!-- Tab -->
-								<div class="tab" id="prod-assurance">
-									<div class="content">
-										<div class="text">Fustered impressive manifest crud opened inside owing punitively around forewent and after wasteful telling sprang coldly and spoke less clients. Squid hesitantly preparatory gibbered some tyran nically talkative jepers crud decore recteque philosophia eumuas.</div>
-										<a href="#" class="theme-btn btn-style-two">learn more</a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block Two -->
+					<div class="project-block-two">
+						<div class="inner-box">
+							<div class="image">
+								<img src="images/gallery/aquavita.jpg" alt="" />
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<a class="plus" href="images/gallery/aquavita_big.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
+											<h3><a href="projects-interior.html">AQUA VITA</a></h3>
+											<div class="category">Home Design</div>
+										</div>
 									</div>
 								</div>
-								
-								<!-- Tab -->
-								<div class="tab" id="prod-precision">
-									<div class="content">
-										<div class="text">Fustered impressive manifest crud opened inside owing punitively around forewent and after wasteful telling sprang coldly and spoke less clients. Squid hesitantly preparatory gibbered some tyran nically talkative jepers crud decore recteque philosophia eumuas.</div>
-										<a href="#" class="theme-btn btn-style-two">learn more</a>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block Two -->
+					<div class="project-block-two">
+						<div class="inner-box">
+							<div class="image">
+								<img src="images/gallery/kashmeer.jpg" alt="" />
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<a class="plus" href="images/gallery/kashmeer_big.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
+											<h3><a href="projects-interior.html">KASHMEER GARDEN</a></h3>
+											<div class="category">Residential Design</div>
+										</div>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block Two -->
+					<div class="project-block-two">
+						<div class="inner-box">
+							<div class="image">
+								<img src="images/gallery/surfview.jpg" alt="" />
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<a class="plus" href="images/gallery/surfview_big.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
+											<h3><a href="projects-interior.html">Surfview Hotels</a></h3>
+											<div class="category">Hotel Design</div>
+										</div>
 									</div>
 								</div>
-
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block Two -->
+					<div class="project-block-two">
+						<div class="inner-box">
+							<div class="image">
+								<img src="images/gallery/Marmoris.jpg" alt="" />
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<a class="plus" href="images/gallery/Marmoris_big.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
+											<h3><a href="projects-interior.html">MARMORIS YATCH</a></h3>
+											<div class="category">Yatch Design</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block Two -->
+					<div class="project-block-two">
+						<div class="inner-box">
+							<div class="image">
+								<img src="images/gallery/canarylodge.jpg" alt="" />
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<a class="plus" href="images/gallery/canarylodge_big.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
+											<h3><a href="projects-interior.html">CANARY LODGE - 
+												PRIVATE RESIDENCE(PENTHOUSE)</a></h3>
+											<div class="category">Penthouse Design</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Project Block Two -->
+					<div class="project-block-two">
+						<div class="inner-box">
+							<div class="image">
+								<img src="images/gallery/nadaclinic.jpg" alt="" />
+								<!-- Overlay Box -->
+								<div class="overlay-box">
+									<div class="overlay-inner">
+										<div class="overlay-content">
+											<a class="plus" href="images/gallery/nadaclinic_big.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
+											<h3><a href="projects-interior.html">NADA CLINIC</a></h3>
+											<div class="category">Clinic Design</div>
+										</div>
+									</div>
+								</div>	
 							</div>
 						</div>
 					</div>
 					
 				</div>
+			
 			</div>
-		</div>
-	</section>
-	<!-- End Product Tab Section -->
+		</section>
+		<!-- End Projects Section Two -->
 	
+
 	<!-- Testimonial Section Two -->
     <section class="testimonial-section-two">
     	<div class="auto-container">
@@ -210,9 +314,9 @@
                     <div class="testimonial-block-three">
                         <div class="inner-box">
 							<div class="quote-icon flaticon-left-quote"></div>
-							<h3>INTENAX</h3>
-                            <div class="text">Habeo facete pri ei. Putent maluisset intellegam vixte vim prompta facilisi interesset te. An denique pro torquatos adipiscing pro, pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet postea laoreet vulputate has. Beyond more stoic this along goodness hey this this wow manatee mongoose one as since flustered impressive manifest far crud opened inside owing punitively around</div>
-                            <div class="author-name">thomas henry</div>
+							<h3>INSIDE PLUS</h3>
+                            <div class="text"><em>"Working with Inside Plus Pvt Ltd on the interior design of our Coffee Bean & Tea Leaf Surfview location was a fantastic experience. Their team truly understood our brand and vision, creating a warm and inviting atmosphere that enhances the customer experience. The attention to detail, from layout to lighting, was impeccable. We are thrilled with the final result and have received numerous compliments from our customers. We highly recommend Inside Plus for any interior design needs!"</em></div>
+                            <div class="author-name">COFFEE BEAN & TEA LEAF SURFVIEW(CBTL)</div>
 							<div class="designation">Interior Design Customer</div>
                         </div>
                     </div>
@@ -221,9 +325,9 @@
                     <div class="testimonial-block-three">
                         <div class="inner-box">
 							<div class="quote-icon flaticon-left-quote"></div>
-							<h3>INTENAX</h3>
-                            <div class="text">Habeo facete pri ei. Putent maluisset intellegam vixte vim prompta facilisi interesset te. An denique pro torquatos adipiscing pro, pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet postea laoreet vulputate has. Beyond more stoic this along goodness hey this this wow manatee mongoose one as since flustered impressive manifest far crud opened inside owing punitively around</div>
-                            <div class="author-name">thomas henry</div>
+							<h3>INSIDE PLUS</h3>
+                            <div class="text"><em>"Our experience with Inside Plus Pvt Ltd for the interior design of Rain Palm & Rain Pearl was exceptional. Their team brought our vision to life with a stunning design that perfectly captures the essence of our brand. They paid great attention to detail and ensured that every element was functional and aesthetically pleasing. The result is a beautiful space that our customers love. We highly recommend Inside Plus for their creativity and professionalism!"</em></div>
+                            <div class="author-name">RAIN PALM & RAIN PEARL</div>
 							<div class="designation">Interior Design Customer</div>
                         </div>
                     </div>
@@ -232,9 +336,9 @@
                     <div class="testimonial-block-three">
                         <div class="inner-box">
 							<div class="quote-icon flaticon-left-quote"></div>
-							<h3>INTENAX</h3>
-                            <div class="text">Habeo facete pri ei. Putent maluisset intellegam vixte vim prompta facilisi interesset te. An denique pro torquatos adipiscing pro, pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet postea laoreet vulputate has. Beyond more stoic this along goodness hey this this wow manatee mongoose one as since flustered impressive manifest far crud opened inside owing punitively around</div>
-                            <div class="author-name">thomas henry</div>
+							<h3>INSIDE PLUS</h3>
+                            <div class="text"><em>"Working with Inside Plus Pvt Ltd on the interior design of Aqua Vita was a wonderful experience. Their team took the time to understand our vision and translated it into a breathtaking design that reflects our brand's essence. The attention to detail and creativity they brought to the project resulted in a stunning space that our clients love. We appreciate their professionalism and dedication throughout the process and highly recommend Inside Plus for any interior design project!"</em></div>
+                            <div class="author-name">AQUA VITA</div>
 							<div class="designation">Interior Design Customer</div>
                         </div>
                     </div>
@@ -243,9 +347,9 @@
                     <div class="testimonial-block-three">
                         <div class="inner-box">
 							<div class="quote-icon flaticon-left-quote"></div>
-							<h3>INTENAX</h3>
-                            <div class="text">Habeo facete pri ei. Putent maluisset intellegam vixte vim prompta facilisi interesset te. An denique pro torquatos adipiscing pro, pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet postea laoreet vulputate has. Beyond more stoic this along goodness hey this this wow manatee mongoose one as since flustered impressive manifest far crud opened inside owing punitively around</div>
-                            <div class="author-name">thomas henry</div>
+							<h3>INSIDE PLUS</h3>
+                            <div class="text"><em>"Collaborating with Inside Plus Pvt Ltd on the interior design of Kashmeer Garden was an outstanding experience. Their team demonstrated exceptional creativity and a deep understanding of our vision, bringing our ideas to life with elegance and sophistication. The final design perfectly balances aesthetics and functionality, creating a welcoming atmosphere for our guests. We are incredibly satisfied with the results and highly recommend Inside Plus for their expertise and professionalism!"</em></div>
+                            <div class="author-name">KASHMEER GARDEN</div>
 							<div class="designation">Interior Design Customer</div>
                         </div>
                     </div>
@@ -254,9 +358,9 @@
                     <div class="testimonial-block-three">
                         <div class="inner-box">
 							<div class="quote-icon flaticon-left-quote"></div>
-							<h3>INTENAX</h3>
-                            <div class="text">Habeo facete pri ei. Putent maluisset intellegam vixte vim prompta facilisi interesset te. An denique pro torquatos adipiscing pro, pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet postea laoreet vulputate has. Beyond more stoic this along goodness hey this this wow manatee mongoose one as since flustered impressive manifest far crud opened inside owing punitively around</div>
-                            <div class="author-name">thomas henry</div>
+							<h3>INSIDE PLUS</h3>
+                            <div class="text"><em>"Our partnership with Inside Plus Pvt Ltd for the interior design of Surfview Hotels has been exceptional. Their team captured our vision perfectly, creating a stunning and inviting atmosphere that enhances the guest experience. Their attention to detail and ability to blend functionality with aesthetic appeal resulted in a beautiful space that our visitors love. We couldn't be happier with the outcome and highly recommend Inside Plus for their innovative design solutions and professionalism!"</em></div>
+                            <div class="author-name">Surfview Hotels</div>
 							<div class="designation">Interior Design Customer</div>
                         </div>
                     </div>
@@ -265,9 +369,9 @@
                     <div class="testimonial-block-three">
                         <div class="inner-box">
 							<div class="quote-icon flaticon-left-quote"></div>
-							<h3>INTENAX</h3>
-                            <div class="text">Habeo facete pri ei. Putent maluisset intellegam vixte vim prompta facilisi interesset te. An denique pro torquatos adipiscing pro, pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet postea laoreet vulputate has. Beyond more stoic this along goodness hey this this wow manatee mongoose one as since flustered impressive manifest far crud opened inside owing punitively around</div>
-                            <div class="author-name">thomas henry</div>
+							<h3>INSIDE PLUS</h3>
+                            <div class="text"><em>"Working with Inside Plus Pvt Ltd on the interior design of Marmorist Yacht was a truly remarkable experience. Their team displayed a deep understanding of our vision, translating it into an elegant and luxurious design that perfectly complements the yacht's lifestyle. The attention to detail, from the choice of materials to the overall layout, was outstanding. We are thrilled with the final result, which has received rave reviews from our guests. We highly recommend Inside Plus for their creativity, professionalism, and dedication to excellence!"</em></div>
+                            <div class="author-name">MARMORIS YATCH</div>
 							<div class="designation">Interior Design Customer</div>
                         </div>
                     </div>
@@ -305,496 +409,25 @@
     </section>
     <!-- End Testimonial Section Two -->
 	
-	<!-- Fluid Section Two -->
-    <section class="fluid-section-two">
-    	<div class="outer-box clearfix">
-        	
-           <!--Image Column-->
-        	<div class="image-column" style="background-image: url(images/resource/image-2.jpg)">
-            	<div class="image">
-                	<img src="images/resource/image-2.jpg" alt="">
-                </div>
-            </div>
-            <!--End Image Column-->
-           
-            <!--Content Column-->
-            <div class="content-column">
-            	<div class="inner-content wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-					<div class="content">
-						
-						<!-- Sec Title -->
-						<div class="sec-title">
-							<div class="inner-title">
-								<div class="title">Read faq’s</div>
-								<h2>Service FAQ’s .</h2>
-							</div>
-						</div>
-						
-						<!--Accordian Box-->
-						<ul class="accordion-box">
-
-							<!--Block-->
-							<li class="accordion block">
-								<div class="acc-btn"><div class="icon-outer"><span class="icon icon-pluss flaticon-plus-symbol"></span> <span class="icon icon-minuss flaticon-substract"></span></div>The planning to peforme well</div>
-								<div class="acc-content">
-									<div class="content">
-										<div class="text">Convenire gubergren vix. Habeo facete pri put ent maluisset intellegam vixt vim prompta facilisi interesset. An denique praesent pro in torqumalis summo sed ipsum volputate exea ipsum dolore.</div>
-									</div>
-								</div>
-							</li>
-
-							<!--Block-->
-							<li class="accordion block active-block">
-								<div class="acc-btn active"><div class="icon-outer"><span class="icon icon-pluss flaticon-plus-symbol"></span> <span class="icon icon-minuss flaticon-substract"></span></div>We have client’s vision in mind</div>
-								<div class="acc-content current">
-									<div class="content">
-										<div class="text">Convenire gubergren vix. Habeo facete pri put ent maluisset intellegam vixt vim prompta facilisi interesset. An denique praesent pro in torqumalis summo sed ipsum volputate exea ipsum dolore.</div>
-									</div>
-								</div>
-							</li>
-							
-							<!--Block-->
-							<li class="accordion block">
-								<div class="acc-btn"><div class="icon-outer"><span class="icon icon-pluss flaticon-plus-symbol"></span> <span class="icon icon-minuss flaticon-substract"></span></div>Advantage of quick project delivery</div>
-								<div class="acc-content">
-									<div class="content">
-										<div class="text">Convenire gubergren vix. Habeo facete pri put ent maluisset intellegam vixt vim prompta facilisi interesset. An denique praesent pro in torqumalis summo sed ipsum volputate exea ipsum dolore.</div>
-									</div>
-								</div>
-							</li>
-							
-						</ul>
-						
-						<a href="#" class="theme-btn btn-style-two">read all faqs</a>
-						
-					</div>
-				</div>
-			</div>
-			
-		</div>
-	</section>
 	
-	<!-- Team Section -->
-	<section class="team-section">
-		<div class="pattern-layer" style="background-image:url(images/background/pattern-6.png)"></div>
-		<div class="auto-container">
-			<!-- Title Box -->
-			<div class="sec-title">
-				<div class="row clearfix">
-					<div class="col-lg-5 col-md-12 col-sm-12">
-						<div class="inner-title">
-							<div class="title">Passionate team</div>
-							<h2>Creative Minds Always <br> Think Someting .</h2>
-						</div>
-					</div>
-					<div class="col-lg-7 col-md-12 col-sm-12">
-						<div class="text">Bar flustered impressive manifest far crud opened inside owing punitively around forewent and after wasteful telling sprang coldly and spoke less clients.</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="row clearfix">
-				
-				<!-- Team Block -->
-				<div class="team-block col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-						<div class="image">
-							<img src="images/resource/team-1.jpg" alt="" />
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="content">
-										<div class="phone"><span>Phone:</span> <a href="tel:+12345018607">+1 (234) 501 8607</a></div>
-										<ul class="social-links">
-											<li><a href="#"><span class="fa fa-behance"></span></a></li>
-											<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-											<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-											<li><a href="#"><span class="fa fa-twitter"></span></a></li>											
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="lower-content">
-							<h3><a href="about-me.html">Robert Vyner</a></h3>
-							<div class="designation">founder</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Team Block -->
-				<div class="team-block col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-						<div class="image">
-							<img src="images/resource/team-2.jpg" alt="" />
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="content">
-										<div class="phone"><span>Phone:</span> <a href="tel:+12345018607">+1 (234) 501 8607</a></div>
-										<ul class="social-links">
-											<li><a href="#"><span class="fa fa-behance"></span></a></li>
-											<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-											<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-											<li><a href="#"><span class="fa fa-twitter"></span></a></li>											
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="lower-content">
-							<h3><a href="about-me.html">Scott K. Irvine</a></h3>
-							<div class="designation">ARCHITECT</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Team Block -->
-				<div class="team-block col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-						<div class="image">
-							<img src="images/resource/team-3.jpg" alt="" />
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="content">
-										<div class="phone"><span>Phone:</span> <a href="tel:+12345018607">+1 (234) 501 8607</a></div>
-										<ul class="social-links">
-											<li><a href="#"><span class="fa fa-behance"></span></a></li>
-											<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-											<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-											<li><a href="#"><span class="fa fa-twitter"></span></a></li>											
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="lower-content">
-							<h3><a href="about-me.html">Winnie Jones</a></h3>
-							<div class="designation">designer</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Team Block -->
-				<div class="team-block col-lg-3 col-md-6 col-sm-12">
-					<div class="inner-box wow fadeInUp" data-wow-delay="900ms" data-wow-duration="1500ms">
-						<div class="image">
-							<img src="images/resource/team-4.jpg" alt="" />
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="content">
-										<div class="phone"><span>Phone:</span> <a href="tel:+12345018607">+1 (234) 501 8607</a></div>
-										<ul class="social-links">
-											<li><a href="#"><span class="fa fa-behance"></span></a></li>
-											<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-											<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-											<li><a href="#"><span class="fa fa-twitter"></span></a></li>											
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="lower-content">
-							<h3><a href="about-me.html">Lewis Kubica</a></h3>
-							<div class="designation">manager</div>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-			
-		</div>
-	</section>
-	<!-- End Team Section -->
 	
 	<!-- Call To Action Section Section -->
 	<section class="call-to-action-section" style="background-image:url(images/background/22.jpg)">
 		<div class="auto-container">
 			<h2>Get In Touch With Us To <br> Book a Free Specialist Meeting .</h2>
 			<ul>
-				<li>Call us: <a href="tel:+12345018607">+1 (234) 501 8607</a></li>
-				<li>Email us: <a href="mailto:info@intenax.net">info@intenax.net</a></li>
+				<li>Call us: <a href="tel:+9609800061">+960 980-0061</a></li>
+				<li>Email us: <a href="mailto:info@inside-plus.com">info@inside-plus.com</a></li>
 			</ul>
 			<a href="contact.html" class="theme-btn btn-style-one">get a quote</a>
 		</div>
 	</section>
 	<!-- End Call To Action Section Section -->
 	
-	<!-- Newsletter Section -->
-	<section class="newsletter-section">
-		<div class="pattern-layer" style="background-image:url(images/background/pattern-7.png)"></div>
-		<div class="auto-container">
-			<div class="row clearfix">
-				<!-- Title Column -->
-				<div class="title-column col-lg-5 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<h2>INTENAX</h2>
-						<div class="text">Beyond more stoic this along goodness hey this news far flustered impressive manifest after all.</div>
-					</div>
-				</div>
-				<!-- Form Column -->
-				<div class="form-column col-lg-7 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<h3>Subscribe to Our Weekly Newsleter</h3>
-						<!-- Subscribe Form -->
-						<div class="subscribe-form">
-							<form method="post" action="contact.html">
-								<div class="form-group">
-									<input type="email" name="email" value="" placeholder="" required>
-									<button type="submit" class="theme-btn btn-style-one">subscribe</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Newsletter Section -->
 	
-	<!-- Projects Section Two -->
-	<section class="project-section-two style-two">
-		<div class="outer-container">
-			<div class="four-item-carousel owl-carousel owl-theme">
-				
-				<!-- Project Block Two -->
-				<div class="project-block-two">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/gallery/22.jpg" alt="" />
-							<!-- Overlay Box -->
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<a class="plus" href="images/gallery/22.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-										<h3><a href="team.html">Portion Interior</a></h3>
-										<div class="category">Home Design</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Project Block Two -->
-				<div class="project-block-two">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/gallery/23.jpg" alt="" />
-							<!-- Overlay Box -->
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<a class="plus" href="images/gallery/23.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-										<h3><a href="team.html">Portion Interior</a></h3>
-										<div class="category">Home Design</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Project Block Two -->
-				<div class="project-block-two">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/gallery/24.jpg" alt="" />
-							<!-- Overlay Box -->
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<a class="plus" href="images/gallery/24.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-										<h3><a href="team.html">Portion Interior</a></h3>
-										<div class="category">Home Design</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Project Block Two -->
-				<div class="project-block-two">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/gallery/25.jpg" alt="" />
-							<!-- Overlay Box -->
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<a class="plus" href="images/gallery/25.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-										<h3><a href="team.html">Portion Interior</a></h3>
-										<div class="category">Home Design</div>
-									</div>
-								</div>
-							</div>	
-						</div>
-					</div>
-				</div>
-				
-				<!-- Project Block Two -->
-				<div class="project-block-two">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/gallery/22.jpg" alt="" />
-							<!-- Overlay Box -->
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<a class="plus" href="images/gallery/22.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-										<h3><a href="team.html">Portion Interior</a></h3>
-										<div class="category">Home Design</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Project Block Two -->
-				<div class="project-block-two">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/gallery/23.jpg" alt="" />
-							<!-- Overlay Box -->
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<a class="plus" href="images/gallery/23.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-										<h3><a href="team.html">Portion Interior</a></h3>
-										<div class="category">Home Design</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Project Block Two -->
-				<div class="project-block-two">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/gallery/24.jpg" alt="" />
-							<!-- Overlay Box -->
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<a class="plus" href="images/gallery/24.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-										<h3><a href="team.html">Portion Interior</a></h3>
-										<div class="category">Home Design</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Project Block Two -->
-				<div class="project-block-two">
-					<div class="inner-box">
-						<div class="image">
-							<img src="images/gallery/25.jpg" alt="" />
-							<!-- Overlay Box -->
-							<div class="overlay-box">
-								<div class="overlay-inner">
-									<div class="overlay-content">
-										<a class="plus" href="images/gallery/25.jpg" data-fancybox="gallery-1" data-caption=""><span class="flaticon-full-screen"></span></a>
-										<h3><a href="team.html">Portion Interior</a></h3>
-										<div class="category">Home Design</div>
-									</div>
-								</div>
-							</div>	
-						</div>
-					</div>
-				</div>
-				
-			</div>
-		
-		</div>
-	</section>
-	<!-- End Projects Section Two -->
+
+	<footer-component></footer-component>
 	
-	<!-- Main Footer -->
-    <footer class="main-footer">
-    	<div class="auto-container">
-        	<!--Widgets Section-->
-            <div class="widgets-section">
-            	<div class="row clearfix">
-                	
-                    <!--Column-->
-                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
-						<div class="row clearfix">
-						
-                        	<!--Footer Column-->
-                            <div class="footer-column col-lg-7 col-md-6 col-sm-12">
-                                <div class="footer-widget about-widget">
-									<ul class="social-links">
-										<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-										<li><a href="#"><span class="fa fa-pinterest-p"></span></a></li>
-										<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-										<li><a href="#"><span class="fa fa-instagram"></span></a></li>
-										<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-									</ul>
-									<div class="text">Sit eit malis civibus kase iuvaret bandit no kec, ipsum volumus indis aissentias referrentur vix euno utamur.</div>
-									<div class="copyright"><span>INTENAX</span> - Design & Architect <br> &copy; All rights reserved.</div>
-								</div>
-							</div>
-							
-							<!--Footer Column-->
-                            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
-                                <div class="footer-widget links-widget">
-									<h2>What we do</h2>
-									<ul class="footer-list">
-										<li><a href="#">Architecture</a></li>
-										<li><a href="#">Home Lighting</a></li>
-										<li><a href="#">Landscape Design</a></li>
-										<li><a href="#">Floor Planning</a></li>
-										<li><a href="#">Interior Design</a></li>
-										<li><a href="#">Exterior Works</a></li>
-									</ul>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-					
-					<!--Column-->
-                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
-						<div class="row clearfix">
-							
-							<!--Footer Column-->
-                            <div class="footer-column col-lg-7 col-md-6 col-sm-12">
-                                <div class="footer-widget links-widget">
-									<h2>Sitemap</h2>
-									<ul class="footer-list">
-										<li><a href="#">Home</a></li>
-										<li><a href="#">About</a></li>
-										<li><a href="#">Services</a></li>
-										<li><a href="#">Our Projects</a></li>
-										<li><a href="#">Latest News</a></li>
-										<li><a href="#">Contact us</a></li>
-									</ul>
-								</div>
-							</div>
-							
-                        	<!--Footer Column-->
-                            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
-                                <div class="footer-widget contact-widget">
-									<h2>Contact</h2>
-									<ul class="contact-list">
-										<li>Adress: <span>63 Nelson Base, Florida</span></li>
-										<li>Phone: <span><a href="tel:+12345018607">+1 (234) 501 8607</a></span></li>
-										<li>Email: <span><a href="mailto:info@intenax.net">info@intenax.net</a></span></li>
-									</ul>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</footer>
 	
 </div>
 <!--End pagewrapper-->

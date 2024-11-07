@@ -9,6 +9,7 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
 <script src="components/header.js" type="text/javascript"></script>
+<script src="components/footer.js" type="text/javascript"></script>
 
 
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
@@ -33,9 +34,10 @@
 
 	<script>
 		function replaceClass() {
-		  const element = document.getElementById('myHome');
+		  const element = document.getElementById('myServices');
 		  element.className = ''; // Remove all classes
 		  element.classList.add('current'); // Add the new class
+		  element.classList.add('dropdown'); // Add the new class
 		}
 		replaceClass();
 	  </script>
@@ -44,328 +46,18 @@
 	<section class="page-title" style="background-image:url(images/background/20.jpg)">
 		<div class="auto-container">
 			<div class="content">
-				<h2>What We Offers</h2>
-				<div class="text">Bespoke Luxury & Architecture Designing</div>
+				<h2>Engineering</h2>
+				<div class="text">Custom Luxury Engineering Solutions</div>
 				<ul class="page-breadcrumb">
 					<li><a href="index.html">Home</a></li>
-					<li>Our Services</li>
+					<li><a href="#" onclick="return false;">Our Services</a></li>
+					<li>Engineering</li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<!-- End Page Title -->
-	
-	<!-- Services Section Seven -->
-	<section class="services-section-seven">
-		<div class="pattern-layer" style="background-image:url(images/background/pattern-18.png)"></div>
-		<div class="auto-container">
-			<div class="title-box">
-				<div class="big-text">INTENAX</div>
-				<div class="text">Beyond more stoic this along goodness hey this this wow manatee mongoose one as since a far flustered impressive manifest far crud opened inside owing punitively around forewent and after wasteful telling sprang coldly and spoke less clients. Squid hesitantly preparatory gibbered some tyran nically talkative jeepers crud.</div>
-			</div>
-			
-			<div class="row clearfix">
-					
-				<!-- Services Block Six -->
-				<div class="services-block-six col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box">
-                    	<div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <div class="icon-box">
-                                        <span class="icon flaticon-plan-1"></span>
-                                    </div>
-                                    <h3>Floor Plans</h3>
-                                </div>
-                                
-                                <div class="back">
-                                    <div class="overlay-box">
-                                        <div class="overlay-inner">
-                                            <div class="content">
-                                                <span class="icon flaticon-plan-1"></span>
-                                                <h4><a href="services.html">Floor Plans</a></h4>
-                                                <div class="text">Bonvenire gubergren exv habeo facete prie utent maluisset intellegam vixm vim prompta facilisi inter kesy set tean denique praesent proe ipsu.</div>
-                                                <a href="services.html" class="read-more">read more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-					</div>
-				</div>
-				
-				<!-- Services Block Six -->
-				<div class="services-block-six col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box">
-                    	<div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <div class="icon-box">
-                                        <span class="icon flaticon-home-2"></span>
-                                    </div>
-                                    <h3>Interior Design</h3>
-                                </div>
-                                <div class="back">
-                                    <div class="overlay-box">
-                                        <div class="overlay-inner">
-                                            <div class="content">
-                                                <span class="icon flaticon-home-2"></span>
-                                                <h4><a href="services.html">Interior Design</a></h4>
-                                                <div class="text">Bonvenire gubergren exv habeo facete prie utent maluisset intellegam vixm vim prompta facilisi inter kesy set tean denique praesent proe ipsu.</div>
-                                                <a href="services.html" class="read-more">read more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-					</div>
-				</div>
-				
-				<!-- Services Block Six -->
-				<div class="services-block-six col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box">
-                    	<div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <div class="icon-box">
-                                        <span class="icon flaticon-building"></span>
-                                    </div>
-                                    <h3>Architectures</h3>
-                                </div>
-                                <div class="back">
-                                    <div class="overlay-box">
-                                        <div class="overlay-inner">
-                                            <div class="content">
-                                                <span class="icon flaticon-building"></span>
-                                                <h4><a href="services.html">Architectures</a></h4>
-                                                <div class="text">Bonvenire gubergren exv habeo facete prie utent maluisset intellegam vixm vim prompta facilisi inter kesy set tean denique praesent proe ipsu.</div>
-                                                <a href="services.html" class="read-more">read more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-					</div>
-				</div>
-				
-				<!-- Services Block Six -->
-				<div class="services-block-six col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box">
-                    	<div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <div class="icon-box">
-                                        <span class="icon flaticon-metering"></span>
-                                    </div>
-                                    <h3>Home Decoration</h3>
-                                </div>
-                                <div class="back">
-                                    <div class="overlay-box">
-                                        <div class="overlay-inner">
-                                            <div class="content">
-                                                <span class="icon flaticon-metering"></span>
-                                                <h4><a href="services.html">Home Decoration</a></h4>
-                                                <div class="text">Bonvenire gubergren exv habeo facete prie utent maluisset intellegam vixm vim prompta facilisi inter kesy set tean denique praesent proe ipsu.</div>
-                                                <a href="services.html" class="read-more">read more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-					</div>
-				</div>
-				
-				<!-- Services Block Six -->
-				<div class="services-block-six col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box">
-                    	<div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <div class="icon-box">
-                                        <span class="icon flaticon-sketch-3"></span>
-                                    </div>
-                                    <h3>Landscapes</h3>
-                                </div>
-                                <div class="back">
-                                    <div class="overlay-box">
-                                        <div class="overlay-inner">
-                                            <div class="content">
-                                                <span class="icon flaticon-sketch-3"></span>
-                                                <h4><a href="services.html">Landscapes</a></h4>
-                                                <div class="text">Bonvenire gubergren exv habeo facete prie utent maluisset intellegam vixm vim prompta facilisi inter kesy set tean denique praesent proe ipsu.</div>
-                                                <a href="services.html" class="read-more">read more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-					</div>
-				</div>
-				
-				<!-- Services Block Six -->
-				<div class="services-block-six col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box">
-                    	<div class="flip-container">
-                            <div class="flipper">
-                                <div class="front">
-                                    <div class="icon-box">
-                                        <span class="icon flaticon-bathtub-1"></span>
-                                    </div>
-                                    <h3>Lighting Styles</h3>
-                                </div>
-                                <div class="back">
-                                    <div class="overlay-box">
-                                        <div class="overlay-inner">
-                                            <div class="content">
-                                                <span class="icon flaticon-bathtub-1"></span>
-                                                <h4><a href="services.html">Lighting Styles</a></h4>
-                                                <div class="text">Bonvenire gubergren exv habeo facete prie utent maluisset intellegam vixm vim prompta facilisi inter kesy set tean denique praesent proe ipsu.</div>
-                                                <a href="services.html" class="read-more">read more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-					</div>
-				</div>
-				
-			</div>
-			
-		</div>
-	</section>
-	<!-- End Services Section Seven -->
-	
-	<!-- Counter Section Two -->
-	<section class="counter-section-two">
-		<div class="outer-container">
-			<div class="row clearfix">
-			
-				<!-- Counter Block -->
-				<div class="counter-block-two col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box">
-						<div class="clearfix">
-							<!-- Image Column -->
-							<div class="image-column col-lg-6 col-md-6 col-sm-12">
-								<div class="image">
-									<a href="#"><img src="images/resource/counter-4.jpg" alt="" /></a>
-								</div>
-							</div>
-							<!-- Content Column -->
-							<div class="content-column col-lg-6 col-md-6 col-sm-12">
-								<div class="inner-column">
-									<div class="content">
-										<div class="count-box">
-											<span class="count-text" data-speed="3500" data-stop="310">0</span>
-										</div>
-										<div class="text">projects completed</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Counter Block -->
-				<div class="counter-block-two col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box">
-						<div class="clearfix">
-							<!-- Image Column -->
-							<div class="image-column col-lg-6 col-md-6 col-sm-12">
-								<div class="image">
-									<a href="#"><img src="images/resource/counter-5.jpg" alt="" /></a>
-								</div>
-							</div>
-							<!-- Content Column -->
-							<div class="content-column col-lg-6 col-md-6 col-sm-12">
-								<div class="inner-column">
-									<div class="content">
-										<div class="count-box">
-											<span class="count-text" data-speed="2000" data-stop="16">0</span>
-										</div>
-										<div class="text">Crazy thinkers</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Counter Block -->
-				<div class="counter-block-two col-lg-4 col-md-6 col-sm-12">
-					<div class="inner-box">
-						<div class="clearfix">
-							<!-- Image Column -->
-							<div class="image-column col-lg-6 col-md-6 col-sm-12">
-								<div class="image">
-									<a href="#"><img src="images/resource/counter-6.jpg" alt="" /></a>
-								</div>
-							</div>
-							<!-- Content Column -->
-							<div class="content-column col-lg-6 col-md-6 col-sm-12">
-								<div class="inner-column">
-									<div class="content">
-										<div class="count-box">
-											<span class="count-text" data-speed="3000" data-stop="25">0</span>
-										</div>
-										<div class="text">years of expertise</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	<!-- End Counter Section Two -->
-	
-	<!-- Testimonial Section -->
-	<section class="testimonial-section" style="background-image:url(images/background/3.jpg)">
-		<div class="auto-container">
-			<div class="testimonial-carousel owl-carousel owl-theme">
-				
-				<!-- Testimonial Block -->
-				<div class="testimonial-block">
-					<div class="inner-box">
-						<div class="quote-icon flaticon-left-quote"></div>
-						<div class="title">- INTENAX -</div>
-						<div class="text">Habeo facete pri ei. Putent maluisset intellegam vix te, vim prompta facilisi interesset te. An denique praesent pro torquatos adipiscing pro, pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet etduo, cu postea laoreet vulputate has. Beyond more stoic this along goodness hey this this wow manatee mongoose one as since a far flustered impressive manifest far crud opened inside owing punitively around</div>
-						<div class="author-name">thomas henry</div>
-					</div>
-				</div>
-				
-				<!-- Testimonial Block -->
-				<div class="testimonial-block">
-					<div class="inner-box">
-						<div class="quote-icon flaticon-left-quote"></div>
-						<div class="title">- INTENAX -</div>
-						<div class="text">Habeo facete pri ei. Putent maluisset intellegam vix te, vim prompta facilisi interesset te. An denique praesent pro torquatos adipiscing pro, pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet etduo, cu postea laoreet vulputate has. Beyond more stoic this along goodness hey this this wow manatee mongoose one as since a far flustered impressive manifest far crud opened inside owing punitively around</div>
-						<div class="author-name">thomas henry</div>
-					</div>
-				</div>
-				
-				<!-- Testimonial Block -->
-				<div class="testimonial-block">
-					<div class="inner-box">
-						<div class="quote-icon flaticon-left-quote"></div>
-						<div class="title">- INTENAX -</div>
-						<div class="text">Habeo facete pri ei. Putent maluisset intellegam vix te, vim prompta facilisi interesset te. An denique praesent pro torquatos adipiscing pro, pro no odio modus. Mea malis summo ut. Ex ipsum dolore assueverit nec, facer imperdiet etduo, cu postea laoreet vulputate has. Beyond more stoic this along goodness hey this this wow manatee mongoose one as since a far flustered impressive manifest far crud opened inside owing punitively around</div>
-						<div class="author-name">thomas henry</div>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	<!-- End Testimonial Section -->
-	
+		
 	<!-- Projects Section Two -->
 	<section class="project-section-two style-four">
 		<div class="pattern-layer" style="background-image:url(images/background/pattern-16.png)"></div>
@@ -535,126 +227,15 @@
 		
 			<!-- Button Box -->
 			<div class="btn-box text-center">
-				<a href="services.html" class="theme-btn btn-style-two">view more projects</a>
+				<a href="#" class="theme-btn btn-style-two" onclick="return false;">view more projects</a>
 			</div>
 		
 		</div>
 	</section>
 	<!-- End Projects Section Two -->
+
+	<footer-component></footer-component>
 	
-	<!-- Newsletter Section -->
-	<section class="newsletter-section style-two">
-		<div class="auto-container">
-			<div class="row clearfix">
-				<!-- Title Column -->
-				<div class="title-column col-lg-5 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<h2>INTENAX</h2>
-						<div class="text">Beyond more stoic this along goodness hey this news far flustered impressive manifest after all.</div>
-					</div>
-				</div>
-				<!-- Form Column -->
-				<div class="form-column col-lg-7 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<h3>Subscribe to Our Weekly Newsleter</h3>
-						<!-- Subscribe Form -->
-						<div class="subscribe-form">
-							<form method="post" action="contact.html">
-								<div class="form-group">
-									<input type="email" name="email" value="" placeholder="" required>
-									<button type="submit" class="theme-btn btn-style-one">subscribe</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Newsletter Section -->
-	
-	<!-- Main Footer -->
-    <footer class="main-footer">
-    	<div class="auto-container">
-        	<!--Widgets Section-->
-            <div class="widgets-section">
-            	<div class="row clearfix">
-                	
-                    <!--Column-->
-                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
-						<div class="row clearfix">
-						
-                        	<!--Footer Column-->
-                            <div class="footer-column col-lg-7 col-md-6 col-sm-12">
-                                <div class="footer-widget about-widget">
-									<ul class="social-links">
-										<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-										<li><a href="#"><span class="fa fa-pinterest-p"></span></a></li>
-										<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-										<li><a href="#"><span class="fa fa-instagram"></span></a></li>
-										<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-									</ul>
-									<div class="text">Sit eit malis civibus kase iuvaret bandit no kec, ipsum volumus indis aissentias referrentur vix euno utamur.</div>
-									<div class="copyright"><span>INTENAX</span> - Design & Architect <br> &copy; All rights reserved.</div>
-								</div>
-							</div>
-							
-							<!--Footer Column-->
-                            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
-                                <div class="footer-widget links-widget">
-									<h2>What we do</h2>
-									<ul class="footer-list">
-										<li><a href="#">Architecture</a></li>
-										<li><a href="#">Home Lighting</a></li>
-										<li><a href="#">Landscape Design</a></li>
-										<li><a href="#">Floor Planning</a></li>
-										<li><a href="#">Interior Design</a></li>
-										<li><a href="#">Exterior Works</a></li>
-									</ul>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-					
-					<!--Column-->
-                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
-						<div class="row clearfix">
-							
-							<!--Footer Column-->
-                            <div class="footer-column col-lg-7 col-md-6 col-sm-12">
-                                <div class="footer-widget links-widget">
-									<h2>Sitemap</h2>
-									<ul class="footer-list">
-										<li><a href="#">Home</a></li>
-										<li><a href="#">About</a></li>
-										<li><a href="#">Services</a></li>
-										<li><a href="#">Our Projects</a></li>
-										<li><a href="#">Latest News</a></li>
-										<li><a href="#">Contact us</a></li>
-									</ul>
-								</div>
-							</div>
-							
-                        	<!--Footer Column-->
-                            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
-                                <div class="footer-widget contact-widget">
-									<h2>Contact</h2>
-									<ul class="contact-list">
-										<li>Adress: <span>63 Nelson Base, Florida</span></li>
-										<li>Phone: <span><a href="tel:+12345018607">+1 (234) 501 8607</a></span></li>
-										<li>Email: <span><a href="mailto:info@intenax.net">info@intenax.net</a></span></li>
-									</ul>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</footer>
 	
 </div>
 <!--End pagewrapper-->
@@ -662,35 +243,6 @@
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-double-up"></span></div>
 
-<!--Search Popup-->
-<div id="search-popup" class="search-popup">
-	<div class="close-search theme-btn"><span class="flaticon-cancel-1"></span></div>
-	<div class="popup-inner">
-		<div class="overlay-layer"></div>
-    	<div class="search-form">
-        	<form method="post" action="index.html">
-            	<div class="form-group">
-                	<fieldset>
-                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
-                        <input type="submit" value="Search Now!" class="theme-btn">
-                    </fieldset>
-                </div>
-            </form>
-            
-            <br>
-            <h3>Recent Search Keywords</h3>
-            <ul class="recent-searches">
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">SEO</a></li>
-                <li><a href="#">Logistics</a></li>
-                <li><a href="#">Freedom</a></li>
-            </ul>
-        
-        </div>
-        
-    </div>
-</div>
 
 <script src="js/jquery.js"></script>
 <script src="js/popper.min.js"></script>
