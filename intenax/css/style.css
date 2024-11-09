@@ -1671,6 +1671,7 @@ img{
 
 .main-slider{
 	position: relative;
+	z-index: 2;
 }
 
 .main-slider .title{
@@ -2905,7 +2906,7 @@ img{
 
 .projects-section{
 	position:relative;
-	padding-top:140px;
+	padding-top:50px;
 }
 
 .projects-section .pattern-layer{
@@ -2917,6 +2918,7 @@ img{
 	width:100%;
 	background-position:center center;
 	background-repeat:no-repeat;
+	z-index: 1;
 }
 
 .projects-section .column{
