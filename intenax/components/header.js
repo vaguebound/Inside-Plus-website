@@ -48,9 +48,9 @@ class Header extends HTMLElement {
 											<li><a href="service-project-management.html">Project Management & Consultancy</a></li>
 										</ul>
 									</li>
-									<li class="dropdown"><a href="#">Projects</a>
+									<li id="myProjects" class="dropdown"><a href="#">Projects</a>
 										<ul>
-											<li><a href="projects-interior.html">Interior</a></li>
+											<li><a href="projects-interior.html">Interior Design</a></li>
                                             <li><a href="projects-architecture.html">Architecture</a></li>
 										</ul>
 									</li>
