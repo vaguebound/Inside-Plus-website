@@ -36,8 +36,7 @@ class Header extends HTMLElement {
 
 							<div class="navbar-collapse collapse scroll-nav clearfix" id="navbarSupportedContent">
 								<ul class="navigation clearfix">
-									<li id="myHome"><a href="index.html">Home</a>
-									</li>
+
 									<li id="myAboutus" class="dropdown"><a href="team.html">About Us</a>
 									</li>
 									<li id="myServices" class="dropdown"><a href="#">Services</a>
@@ -74,29 +73,8 @@ class Header extends HTMLElement {
         <!--End Header Upper-->
 
 		
-        
-		<!--Sticky Header-->
-        <div class="sticky-header">
-        	<div class="auto-container clearfix">
-            	<!--Logo-->
-            	<div class="logo pull-left">
-                	<a href="index.html" class="img-responsive"><img src="images/logo-small.png" alt="" title=""></a>
-                </div>
-                
-				<!--Right Col-->
-                <div class="right-col pull-right">
-					<!-- Main Menu -->
-                    <nav class="main-menu navbar-expand-md">
-                        <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
-                            <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
-                        </div>
-                    </nav><!-- Main Menu End-->
-                </div>
-                
-            </div>
-        </div>
-        <!--End Sticky Header-->
-		
+
+
     <!-- Mobile Menu  -->
         <div class="mobile-menu">
             <div class="menu-backdrop"></div>

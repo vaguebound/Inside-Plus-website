@@ -25,6 +25,7 @@ class Footer extends HTMLElement {
 										<li><a href="https://www.facebook.com/insideplus/" target="_blank"><span class="fa fa-facebook-f"></span></a></li>
 										<li><a href="https://www.instagram.com/inside_plus/" target="_blank"><span class="fa fa-instagram"></span></a></li>
 										<li><a href="https://www.linkedin.com/company/inside-plus/posts/?feedView=all" target="_blank"><span class="fa fa-linkedin"></span></a></li>
+										<li><a href="tel:+9609800051"><span class="fa fa-whatsapp"</span></a></li>
 									</ul>
 									<div class="text">Transforming spaces with passion and precision.</div>
 									<div class="copyright"><span>INSIDE PLUS</span> - Design & Architect <br> &copy; All rights reserved.</div>
