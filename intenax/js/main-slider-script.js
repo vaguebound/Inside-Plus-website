@@ -10,7 +10,7 @@
                 jsFileLocation:"plugins/revolution/js/",
                 sliderLayout:"auto",
                 dottedOverlay:"none",
-                delay:5000,
+                delay:7000,
                 navigation: {
                     keyboardNavigation:"off",
                     keyboard_direction: "horizontal",
@@ -88,7 +88,7 @@
                 jsFileLocation:"plugins/revolution/js/",
                 sliderLayout:"fullwidth",
                 dottedOverlay:"none",
-                delay:5000,
+                delay:7000,
                 navigation: {
                     keyboardNavigation:"off",
                     keyboard_direction: "horizontal",
