@@ -131,6 +131,13 @@ a{
 	color:#e9c37a;
 }
 
+.unclickable {
+    pointer-events: none; /* Disables all pointer events */
+    cursor: default;      /* Changes the cursor to indicate no action */
+    text-decoration: none; /* Optional: Removes the underline to make it visually different */
+}
+
+
 button,
 a:hover,a:focus,a:visited{
 	text-decoration:none;
@@ -3613,13 +3620,13 @@ img{
 
 .sponsors-section{
 	position:relative;
-	padding:50px 0px 50px;
+	padding:10px 0px 10px;
 	box-shadow:0px 0px 20px rgba(0,0,0,0.10);
 }
 
 .sponsors-section.style-two{
 	box-shadow:none;
-	padding:80px 0px 80px;
+	padding:40px 0px 40px;
 	border-top:1px solid #eeeeee;
 }
 
@@ -3658,6 +3665,7 @@ img{
 .sponsors-section .sponsors-outer .image-box img:hover{
 	opacity:0.4;
 }
+
 
 /*** 
 
@@ -7098,7 +7106,7 @@ img{
 
 .product-block .inner-box .overlay-box .overlay-inner{
 	position:relative;
-	padding-top:44px;
+	padding-top:250px;
 	padding-left:15px;
 	padding-right:15px;
 	text-align:center;
@@ -7183,8 +7191,8 @@ img{
 
 .product-block-two .inner-box .overlay-box .overlay-inner{
 	position:relative;
-	max-width:280px;
-	padding-top:100px;
+	max-width:370px;
+	padding-top:250px;
 	padding-left:15px;
 	padding-right:15px;
 	text-align:center;
@@ -7337,7 +7345,10 @@ img{
 	display:block;
 	overflow:hidden;
 	background:#000000;
+	height: auto;
+	text-align: center;
 }
+
 
 .product-block-four .inner-box .image .sale{
 	position:absolute;
@@ -7373,6 +7384,7 @@ img{
 	position:relative;
 	width:100%;
 	display:block;
+	margin: 0 auto;
 	transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -7387,10 +7399,15 @@ img{
 	transform:scale(1.1) rotate(3deg);	
 }
 
+.product-block-four .inner-box:hover .image img:not(.fancybox-active) {
+    transform: scale(1.1) rotate(3deg);
+}
+
+
 .product-block-four .inner-box .prod-options{
 	position:absolute;
 	right:5px;
-	bottom:-150px;
+	bottom:150px;
 	width:40px;
 	opacity:0;
 	transition: all 0.5s ease;
@@ -7857,7 +7874,7 @@ img{
 
 .page-title{
 	position:relative;
-	padding:230px 0px 70px;
+	padding:70px 0px 70px;
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -7874,7 +7891,7 @@ img{
 	top:0px;
 	right:0px;
 	bottom:0px;
-	background-color:rgba(0,0,0,0.70);
+	background-color:rgba(133, 133, 133, 0.7);
 }
 
 .page-title h2{
@@ -7897,7 +7914,7 @@ img{
 .page-title .page-breadcrumb{
 	position:relative;
 	color:rgba(255,255,255,0.70);
-	margin-top:90px;
+	margin-top:20px;
 	font-family: 'Montserrat', sans-serif;
 }
 
