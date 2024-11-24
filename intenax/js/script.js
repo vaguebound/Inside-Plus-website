@@ -580,17 +580,14 @@
 	}
 	
 	
+
+	$('.lightbox-image').fancybox({
+		openEffect: 'none',
+		closeEffect: 'none',
+	});
+
 	
-	//LightBox / Fancybox
-	if($('.lightbox-image').length) {
-		$('.lightbox-image').fancybox({
-			openEffect  : 'fade',
-			closeEffect : 'fade',
-			helpers : {
-				media : {}
-			}
-		});
-	}
+							
 	
 	
 	//Contact Form Validation
