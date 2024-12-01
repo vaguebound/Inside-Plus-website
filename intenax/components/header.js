@@ -53,7 +53,7 @@ class Header extends HTMLElement {
 
 										</ul>
 									</li>
-									<li id="myPartners" class="dropdown"><a href="partners.html">Partners</a>
+									<li id="myPartners" class="dropdown"><a href="products.html">Products</a>
 									</li>
 									<li id="myContact"><a href="contact.html">Contact Us</a></li>
 								</ul>

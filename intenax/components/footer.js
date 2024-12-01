@@ -28,7 +28,7 @@ class Footer extends HTMLElement {
 										<li><a href="tel:+9609800051"><span class="fa fa-whatsapp"</span></a></li>
 									</ul>
 									<div class="text">Transforming spaces with passion and precision.</div>
-									<div class="copyright"><span>INSIDE PLUS</span> - Design & Architect <br> &copy; All rights reserved.</div>
+									<div class="copyright"><span>INSIDE PLUS</span> - Architecture and Interior Design <br> &copy; All rights reserved.</div>
 								</div>
 							</div>
 							
